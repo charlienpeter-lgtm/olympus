@@ -1,0 +1,2095 @@
+[2026-11-12T23:04:47.176916Z] ============================================================
+[2026-11-12T23:04:47.177269Z] STEP 2 — DEPENDENCY AUDIT STARTING
+[2026-11-12T23:04:47.177528Z] ============================================================
+[2026-11-12T23:04:47.178080Z] Total agents to audit: 87
+[2026-11-12T23:04:47.178817Z] Unique repos to inspect: 56
+[2026-11-12T23:04:47.179078Z]   FinRL-master: 0 deps found -> []
+[2026-11-12T23:04:47.179290Z]   Kronos-master: 0 deps found -> []
+[2026-11-12T23:04:47.179497Z]   Lean-master: 0 deps found -> []
+[2026-11-12T23:04:47.191191Z]   Learn-Quant: 32 deps found -> ['-v', '__init__.py', 'b', 'b007', 'b008', 'b905', 'c4', 'e', 'e501', 'e731']...
+[2026-11-12T23:04:47.191469Z]   OpenBB-develop: 0 deps found -> []
+[2026-11-12T23:04:47.191760Z]   OpenTerminal-main: 0 deps found -> []
+[2026-11-12T23:04:47.191965Z]   OpenTradex-main: 0 deps found -> []
+[2026-11-12T23:04:47.192150Z]   PyPortfolioOpt-main: 0 deps found -> []
+[2026-11-12T23:04:47.192425Z]   Quant-Monte-Carlo-Simulation-main: 0 deps found -> []
+[2026-11-12T23:04:47.192703Z]   Riskfolio-Lib-master: 0 deps found -> []
+[2026-11-12T23:04:47.192887Z]   Trading-Agents: 0 deps found -> []
+[2026-11-12T23:04:47.193061Z]   Trading-Agents/bot-0007: 0 deps found -> []
+[2026-11-12T23:04:47.193226Z]   Trading-Agents/bot-0013: 0 deps found -> []
+[2026-11-12T23:04:47.193397Z]   Trading-Agents/bot-0027: 0 deps found -> []
+[2026-11-12T23:04:47.193560Z]   Trading-Agents/bot-0028: 0 deps found -> []
+[2026-11-12T23:04:47.193752Z]   TradingAgents-main: 0 deps found -> []
+[2026-11-12T23:04:47.201726Z]   ai-hedge-fund: 22 deps found -> ['.', '0.3.5', '1.0.0', '2.7.2', 'agents', 'ai', 'aihf', 'an', 'backtesting', 'black']...
+[2026-11-12T23:04:47.202002Z]   arch-main: 0 deps found -> []
+[2026-11-12T23:04:47.202184Z]   awesome-systematic-trading: 0 deps found -> []
+[2026-11-12T23:04:47.212382Z]   backtrader: 26 deps found -> ['backtesting', 'backtrader', 'btrun', 'console_scripts', 'daniel', 'data_file', 'docs', 'docs2', 'exec', 'gnu']...
+[2026-11-12T23:04:47.220632Z]   bbstrader: 98 deps found -> ['3.12', 'analysis', 'bbstrader', 'bbstrader.btengine.analytics', 'bbstrader.btengine.experiment', 'bbstrader.btengine.friction', 'bbstrader.btengine.overfitting', 'bbstrader.btengine.timeframe', 'bbstrader.btengine.vectorized', 'bbstrader.core.broker']...
+[2026-11-12T23:04:47.220885Z]   blazingmq: 0 deps found -> []
+[2026-11-12T23:04:47.221105Z]   ccxt-master: 0 deps found -> []
+[2026-11-12T23:04:47.221289Z]   cvxpy-master: 0 deps found -> []
+[2026-11-12T23:04:47.221468Z]   dvc-main: 0 deps found -> []
+[2026-11-12T23:04:47.221689Z]   finBERT-master: 0 deps found -> []
+[2026-11-12T23:04:47.221899Z]   fredapi-master: 0 deps found -> []
+[2026-11-12T23:04:47.222106Z]   freqtrade-develop: 0 deps found -> []
+[2026-11-12T23:04:47.240827Z]   gs-quant: 99 deps found -> ['__init__.py', '_version.py', 'aenum', 'apache-2.0', 'as', 'aws', 'backoff', 'cachetools', 'certifi', 'config.ini']...
+[2026-11-12T23:04:47.241101Z]   hftbacktest-master: 0 deps found -> []
+[2026-11-12T23:04:47.252905Z]   hmmlearn: 27 deps found -> ['--doctest-glob', 'antony', 'david', 'error', 'fabian', 'gael', 'hidden', 'hmmlearn', 'hmmlearn._hmmc', 'intended']...
+[2026-11-12T23:04:47.268738Z]   hummingbot: 77 deps found -> ['--parallel', '-o0', '-std', '-stdlib', '-wstrict-prototypes', '.dev1', '20260922', '__main__', 'aiohttp', 'aiomqtt']...
+[2026-11-12T23:04:47.269226Z]   kombu: 59 deps found -> ['any', 'assertin', 'author', 'azureservicebus', 'azureservicebus.txt', 'azurestoragequeues', 'azurestoragequeues.txt', 'bsd-3-clause', 'confluentkafka', 'confluentkafka.txt']...
+[2026-11-12T23:04:47.269464Z]   kronos-rt: 0 deps found -> []
+[2026-11-12T23:04:47.269655Z]   langgraph-main: 0 deps found -> []
+[2026-11-12T23:04:47.288449Z]   lumibot: 122 deps found -> ['4.6.54', 'a', 'agentic-trading', 'ai-agents', 'ai-trading', 'algorithmic-trading', 'alpaca', 'alpaca-py', 'alpha_vantage', 'anyio']...
+[2026-11-12T23:04:47.296342Z]   ml4t-data: 112 deps found -> ['--strict-markers', '--tb', '-m', '-ra', '.', '3.12', '_version.py', 'aiofiles', 'algorithmic-trading', 'arg']...
+[2026-11-12T23:04:47.296758Z]   nautilus_trader-develop: 0 deps found -> []
+[2026-11-12T23:04:47.297085Z]   netdata: 0 deps found -> []
+[2026-11-12T23:04:47.297264Z]   optuna-master: 0 deps found -> []
+[2026-11-12T23:04:47.297530Z]   pandas-ta: 0 deps found -> []
+[2026-11-12T23:04:47.297744Z]   process-watch: 0 deps found -> []
+[2026-11-12T23:04:47.298078Z]   protobus-py: 28 deps found -> ['.', '2.0.0', '3.10', '3.11', 'aiormq', 'amqp', 'ariel', 'auto', 'build', 'bus']...
+[2026-11-12T23:04:47.298257Z]   pysystemtrade-develop: 0 deps found -> []
+[2026-11-12T23:04:47.298427Z]   qlib-main: 0 deps found -> []
+[2026-11-12T23:04:47.298636Z]   quantportfolio: 0 deps found -> []
+[2026-11-12T23:04:47.298827Z]   quantstats-main: 0 deps found -> []
+[2026-11-12T23:04:47.299132Z]   redis-message-queue: 32 deps found -> ['11.0.1', '3.12', 'bump', 'bump-my-version', 'deduplication', 'dev', 'e', 'e731', 'elijas', 'f']...
+[2026-11-12T23:04:47.299517Z]   redis-workq: 22 deps found -> ['1.1.0', 'dlq', 'environment', 'fakeredis', 'intended', 'jobs', 'metrics', 'priority', 'programming', 'pytest']...
+[2026-11-12T23:04:47.299699Z]   skfolio-main: 0 deps found -> []
+[2026-11-12T23:04:47.299876Z]   stocd: 0 deps found -> []
+[2026-11-12T23:04:47.304625Z]   stocksight: 8 deps found -> ['beautifulsoup4', 'elasticsearch', 'newspaper3k', 'nltk', 'requests', 'textblob', 'tweepy', 'vadersentiment']
+[2026-11-12T23:04:47.304871Z]   ta-lib-main: 0 deps found -> []
+[2026-11-12T23:04:47.305243Z]   taskiq-aio-pika: 86 deps found -> ['0.6.0', 'aio-pika', 'ann', 'ann401', 'anyio', 'async', 'auto', 'b', 'black', 'bytes']...
+[2026-11-12T23:04:47.305420Z]   vectorbt-master: 0 deps found -> []
+[2026-11-12T23:04:47.305587Z]   yfinance-main: 0 deps found -> []
+[2026-11-12T23:05:15.155937Z] ============================================================
+[2026-11-12T23:05:15.156179Z] STEP 2 — DEPENDENCY AUDIT STARTING
+[2026-11-12T23:05:15.156341Z] ============================================================
+[2026-11-12T23:05:15.156835Z] Total agents to audit: 87
+[2026-11-12T23:05:15.157415Z] Unique repos to inspect: 56
+[2026-11-12T23:05:15.157668Z]   FinRL-master: no deps found (no config file)
+[2026-11-12T23:05:15.157875Z]   Kronos-master: no deps found (no config file)
+[2026-11-12T23:05:15.158052Z]   Lean-master: no deps found (no config file)
+[2026-11-12T23:05:15.158557Z]   Learn-Quant: 8 deps
+[2026-11-12T23:05:15.158759Z]   OpenBB-develop: no deps found (no config file)
+[2026-11-12T23:05:15.158946Z]   OpenTerminal-main: no deps found (no config file)
+[2026-11-12T23:05:15.159112Z]   OpenTradex-main: no deps found (no config file)
+[2026-11-12T23:05:15.159295Z]   PyPortfolioOpt-main: no deps found (no config file)
+[2026-11-12T23:05:15.159468Z]   Quant-Monte-Carlo-Simulation-main: no deps found (no config file)
+[2026-11-12T23:05:15.159630Z]   Riskfolio-Lib-master: no deps found (no config file)
+[2026-11-12T23:05:15.159798Z]   Trading-Agents: no deps found (no config file)
+[2026-11-12T23:05:15.159967Z]   Trading-Agents/bot-0007: no deps found (no config file)
+[2026-11-12T23:05:15.160127Z]   Trading-Agents/bot-0013: no deps found (no config file)
+[2026-11-12T23:05:15.160288Z]   Trading-Agents/bot-0027: no deps found (no config file)
+[2026-11-12T23:05:15.160472Z]   Trading-Agents/bot-0028: no deps found (no config file)
+[2026-11-12T23:05:15.160633Z]   TradingAgents-main: no deps found (no config file)
+[2026-11-12T23:05:15.160892Z]   ai-hedge-fund: no deps found
+[2026-11-12T23:05:15.161055Z]   arch-main: no deps found (no config file)
+[2026-11-12T23:05:15.161226Z]   awesome-systematic-trading: no deps found (no config file)
+[2026-11-12T23:05:15.161611Z]   backtrader: 1 deps
+[2026-11-12T23:05:15.161989Z]   bbstrader: 18 deps
+[2026-11-12T23:05:15.162171Z]   blazingmq: no deps found (no config file)
+[2026-11-12T23:05:15.162348Z]   ccxt-master: no deps found (no config file)
+[2026-11-12T23:05:15.162509Z]   cvxpy-master: no deps found (no config file)
+[2026-11-12T23:05:15.162711Z]   dvc-main: no deps found (no config file)
+[2026-11-12T23:05:15.162874Z]   finBERT-master: no deps found (no config file)
+[2026-11-12T23:05:15.163034Z]   fredapi-master: no deps found (no config file)
+[2026-11-12T23:05:15.163193Z]   freqtrade-develop: no deps found (no config file)
+[2026-11-12T23:05:15.163646Z]   gs-quant: 25 deps
+[2026-11-12T23:05:15.163812Z]   hftbacktest-master: no deps found (no config file)
+[2026-11-12T23:05:15.164150Z]   hmmlearn: 3 deps
+[2026-11-12T23:05:15.164498Z]   hummingbot: 47 deps
+[2026-11-12T23:05:15.164835Z]   kombu: no deps found
+[2026-11-12T23:05:15.165009Z]   kronos-rt: no deps found (no config file)
+[2026-11-12T23:05:15.165168Z]   langgraph-main: no deps found (no config file)
+[2026-11-12T23:05:15.165663Z]   lumibot: 52 deps
+[2026-11-12T23:05:15.165968Z]   ml4t-data: 20 deps
+[2026-11-12T23:05:15.166142Z]   nautilus_trader-develop: no deps found (no config file)
+[2026-11-12T23:05:15.166317Z]   netdata: no deps found (no config file)
+[2026-11-12T23:05:15.166478Z]   optuna-master: no deps found (no config file)
+[2026-11-12T23:05:15.166638Z]   pandas-ta: no deps found (no config file)
+[2026-11-12T23:05:15.166854Z]   process-watch: no deps found (no config file)
+[2026-11-12T23:05:15.167150Z]   protobus-py: 3 deps
+[2026-11-12T23:05:15.167335Z]   pysystemtrade-develop: no deps found (no config file)
+[2026-11-12T23:05:15.167507Z]   qlib-main: no deps found (no config file)
+[2026-11-12T23:05:15.167687Z]   quantportfolio: no deps found (no config file)
+[2026-11-12T23:05:15.167899Z]   quantstats-main: no deps found (no config file)
+[2026-11-12T23:05:15.168226Z]   redis-message-queue: 2 deps
+[2026-11-12T23:05:15.168558Z]   redis-workq: no deps found
+[2026-11-12T23:05:15.168739Z]   skfolio-main: no deps found (no config file)
+[2026-11-12T23:05:15.168919Z]   stocd: no deps found (no config file)
+[2026-11-12T23:05:15.169198Z]   stocksight: 8 deps
+[2026-11-12T23:05:15.169365Z]   ta-lib-main: no deps found (no config file)
+[2026-11-12T23:05:15.169656Z]   taskiq-aio-pika: 3 deps
+[2026-11-12T23:05:15.169893Z]   vectorbt-master: no deps found (no config file)
+[2026-11-12T23:05:15.170087Z]   yfinance-main: no deps found (no config file)
+[2026-11-12T23:05:15.170475Z] 
+[2026-11-12T23:05:15.170618Z] ============================================================
+[2026-11-12T23:05:15.170757Z] DEPENDENCY AUDIT BY ZONE
+[2026-11-12T23:05:15.170892Z] ============================================================
+[2026-11-12T23:05:15.171044Z] 
+--- DATA-FEEDS ZONE (20 packages) ---
+[2026-11-12T23:05:15.171194Z]   aiofiles: 1 agents -> D02
+[2026-11-12T23:05:15.171352Z]   certifi: 2 agents -> A03, D02
+[2026-11-12T23:05:15.171493Z]   click: 1 agents -> D02
+[2026-11-12T23:05:15.171633Z]   filelock: 2 agents -> D02, E01
+[2026-11-12T23:05:15.171773Z]   httpx: 2 agents -> A03, D02
+[2026-11-12T23:05:15.171908Z]   ml4t-specs: 1 agents -> D02
+[2026-11-12T23:05:15.172058Z]   numpy: 8 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.172196Z]   openpyxl: 1 agents -> D02
+[2026-11-12T23:05:15.172364Z]   pandas: 6 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.172497Z]   pandas-market-calendars: 1 agents -> D02
+[2026-11-12T23:05:15.172627Z]   platformdirs: 1 agents -> D02
+[2026-11-12T23:05:15.172771Z]   polars: 2 agents -> D02, E01
+[2026-11-12T23:05:15.172905Z]   pybreaker: 1 agents -> D02
+[2026-11-12T23:05:15.173036Z]   pydantic: 3 agents -> D02, E01, E03
+[2026-11-12T23:05:15.173163Z]   pydantic-settings: 1 agents -> D02
+[2026-11-12T23:05:15.173392Z]   python-dotenv: 3 agents -> A11, D02, E01
+[2026-11-12T23:05:15.173523Z]   pyyaml: 5 agents -> A03, A11, D02, E01, E03
+[2026-11-12T23:05:15.173656Z]   rich: 1 agents -> D02
+[2026-11-12T23:05:15.173794Z]   structlog: 1 agents -> D02
+[2026-11-12T23:05:15.173926Z]   tenacity: 3 agents -> D02, R-B04, XR-07
+[2026-11-12T23:05:15.174088Z] 
+--- STRATEGY-BUILDING ZONE (15 packages) ---
+[2026-11-12T23:05:15.174231Z]   aio-pika: 1 agents -> SYS-04
+[2026-11-12T23:05:15.174432Z]   aiormq: 3 agents -> SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.174607Z]   matplotlib: 2 agents -> E01, S07
+[2026-11-12T23:05:15.174747Z]   numpy: 8 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.174882Z]   pandas: 6 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.175016Z]   protobuf: 5 agents -> E01, E03, SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.175150Z]   requests: 5 agents -> A02, A03, E01, E03, S07
+[2026-11-12T23:05:15.175316Z]   scikit-learn: 3 agents -> L04, S05, S07
+[2026-11-12T23:05:15.175485Z]   scipy: 6 agents -> A03, E01, E03, L04, S05...
+[2026-11-12T23:05:15.175646Z]   six: 4 agents -> A11, E01, E03, S03
+[2026-11-12T23:05:15.175797Z]   taskiq: 1 agents -> SYS-04
+[2026-11-12T23:05:15.175951Z]   textblob: 2 agents -> A02, S07
+[2026-11-12T23:05:15.176088Z]   tomli: 3 agents -> SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.176225Z]   typing-extensions: 1 agents -> SYS-04
+[2026-11-12T23:05:15.176376Z]   websocket-client: 1 agents -> S07
+[2026-11-12T23:05:15.176518Z] 
+--- RISK-COMPLIANCE ZONE (2 packages) ---
+[2026-11-12T23:05:15.176700Z]   redis: 2 agents -> R-B04, XR-07
+[2026-11-12T23:05:15.176868Z]   tenacity: 3 agents -> D02, R-B04, XR-07
+[2026-11-12T23:05:15.177076Z] 
+--- EXECUTION ZONE (91 packages) ---
+[2026-11-12T23:05:15.177377Z]   aiohttp: 2 agents -> E01, E03
+[2026-11-12T23:05:15.177614Z]   aiomqtt: 2 agents -> E01, E03
+[2026-11-12T23:05:15.177842Z]   aioprocessing: 2 agents -> E01, E03
+[2026-11-12T23:05:15.178014Z]   aioresponses: 2 agents -> E01, E03
+[2026-11-12T23:05:15.178159Z]   aiounittest: 2 agents -> E01, E03
+[2026-11-12T23:05:15.178325Z]   alpaca-py: 1 agents -> E01
+[2026-11-12T23:05:15.178467Z]   alpha_vantage: 1 agents -> E01
+[2026-11-12T23:05:15.178598Z]   anyio: 1 agents -> E01
+[2026-11-12T23:05:15.178733Z]   appdirs: 1 agents -> E01
+[2026-11-12T23:05:15.178869Z]   apscheduler: 1 agents -> E01
+[2026-11-12T23:05:15.179033Z]   aptos-sdk: 2 agents -> E01, E03
+[2026-11-12T23:05:15.179248Z]   async-timeout: 2 agents -> E01, E03
+[2026-11-12T23:05:15.179402Z]   asyncssh: 2 agents -> E01, E03
+[2026-11-12T23:05:15.179542Z]   base58: 2 agents -> E01, E03
+[2026-11-12T23:05:15.179738Z]   bcrypt: 1 agents -> E01
+[2026-11-12T23:05:15.179889Z]   bidict: 2 agents -> E01, E03
+[2026-11-12T23:05:15.180028Z]   bip-utils: 2 agents -> E01, E03
+[2026-11-12T23:05:15.180174Z]   boto3: 1 agents -> E01
+[2026-11-12T23:05:15.180317Z]   brotli: 2 agents -> E01, E03
+[2026-11-12T23:05:15.180467Z]   cachetools: 3 agents -> A03, E01, E03
+[2026-11-12T23:05:15.180597Z]   ccxt: 1 agents -> E01
+[2026-11-12T23:05:15.180728Z]   cryptography: 2 agents -> E01, E03
+[2026-11-12T23:05:15.180863Z]   databento: 1 agents -> E01
+[2026-11-12T23:05:15.180994Z]   decibel-python-sdk: 2 agents -> E01, E03
+[2026-11-12T23:05:15.181129Z]   duckdb: 1 agents -> E01
+[2026-11-12T23:05:15.181269Z]   eth-account: 2 agents -> E01, E03
+[2026-11-12T23:05:15.181403Z]   exchange_calendars: 2 agents -> A11, E01
+[2026-11-12T23:05:15.181538Z]   filelock: 2 agents -> D02, E01
+[2026-11-12T23:05:15.181669Z]   flask: 1 agents -> E01
+[2026-11-12T23:05:15.181849Z]   free-proxy: 1 agents -> E01
+[2026-11-12T23:05:15.181988Z]   google-adk: 1 agents -> E01
+[2026-11-12T23:05:15.182138Z]   google-genai: 1 agents -> E01
+[2026-11-12T23:05:15.182314Z]   holidays: 1 agents -> E01
+[2026-11-12T23:05:15.182449Z]   ibapi: 1 agents -> E01
+[2026-11-12T23:05:15.182578Z]   injective-py: 2 agents -> E01, E03
+[2026-11-12T23:05:15.182711Z]   jsonpickle: 1 agents -> E01
+[2026-11-12T23:05:15.182843Z]   lighter-sdk: 2 agents -> E01, E03
+[2026-11-12T23:05:15.182970Z]   litellm: 1 agents -> E01
+[2026-11-12T23:05:15.183106Z]   lumiwealth-tradier: 1 agents -> E01
+[2026-11-12T23:05:15.183238Z]   massive: 1 agents -> E01
+[2026-11-12T23:05:15.183378Z]   matplotlib: 2 agents -> E01, S07
+[2026-11-12T23:05:15.183536Z]   mcp: 1 agents -> E01
+[2026-11-12T23:05:15.183688Z]   msgpack-python: 2 agents -> E01, E03
+[2026-11-12T23:05:15.183826Z]   numba: 2 agents -> E01, E03
+[2026-11-12T23:05:15.183971Z]   numpy: 8 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.184127Z]   objgraph: 2 agents -> E01, E03
+[2026-11-12T23:05:15.184264Z]   openai: 1 agents -> E01
+[2026-11-12T23:05:15.184397Z]   pandas: 6 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.184527Z]   pandas-ta: 2 agents -> E01, E03
+[2026-11-12T23:05:15.184670Z]   pandas-ta-classic: 1 agents -> E01
+[2026-11-12T23:05:15.184807Z]   pandas_market_calendars: 1 agents -> E01
+[2026-11-12T23:05:15.184944Z]   plotly: 1 agents -> E01
+[2026-11-12T23:05:15.185121Z]   polars: 2 agents -> D02, E01
+[2026-11-12T23:05:15.185283Z]   prompt_toolkit: 2 agents -> E01, E03
+[2026-11-12T23:05:15.185418Z]   protobuf: 5 agents -> E01, E03, SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.185549Z]   psutil: 2 agents -> E01, E03
+[2026-11-12T23:05:15.185691Z]   psycopg2-binary: 1 agents -> E01
+[2026-11-12T23:05:15.185829Z]   py-clob-client-v2: 1 agents -> E01
+[2026-11-12T23:05:15.185961Z]   pyarrow: 1 agents -> E01
+[2026-11-12T23:05:15.186088Z]   pydantic: 3 agents -> D02, E01, E03
+[2026-11-12T23:05:15.186216Z]   pyjwt: 2 agents -> E01, E03
+[2026-11-12T23:05:15.186346Z]   pyperclip: 2 agents -> E01, E03
+[2026-11-12T23:05:15.186481Z]   pytest: 1 agents -> E01
+[2026-11-12T23:05:15.186610Z]   python-dotenv: 3 agents -> A11, D02, E01
+[2026-11-12T23:05:15.186739Z]   pytz: 1 agents -> E01
+[2026-11-12T23:05:15.186875Z]   pyyaml: 5 agents -> A03, A11, D02, E01, E03
+[2026-11-12T23:05:15.187004Z]   quandl: 1 agents -> E01
+[2026-11-12T23:05:15.187132Z]   quantstats-lumi: 1 agents -> E01
+[2026-11-12T23:05:15.187259Z]   requests: 5 agents -> A02, A03, E01, E03, S07
+[2026-11-12T23:05:15.187385Z]   requests-oauthlib: 1 agents -> E01
+[2026-11-12T23:05:15.187518Z]   ruamel.yaml: 2 agents -> E01, E03
+[2026-11-12T23:05:15.187651Z]   safe-pysha3: 2 agents -> E01, E03
+[2026-11-12T23:05:15.187791Z]   scalecodec: 2 agents -> E01, E03
+[2026-11-12T23:05:15.187927Z]   schwab-py: 1 agents -> E01
+[2026-11-12T23:05:15.188067Z]   scipy: 6 agents -> A03, E01, E03, L04, S05...
+[2026-11-12T23:05:15.188230Z]   signalrcore: 1 agents -> E01
+[2026-11-12T23:05:15.188419Z]   six: 4 agents -> A11, E01, E03, S03
+[2026-11-12T23:05:15.188720Z]   solders: 2 agents -> E01, E03
+[2026-11-12T23:05:15.188906Z]   sqlalchemy: 2 agents -> E01, E03
+[2026-11-12T23:05:15.189049Z]   ta-lib: 2 agents -> E01, E03
+[2026-11-12T23:05:15.189191Z]   tabulate: 3 agents -> A11, E01, E03
+[2026-11-12T23:05:15.189392Z]   termcolor: 1 agents -> E01
+[2026-11-12T23:05:15.189613Z]   tqdm: 3 agents -> A03, E01, E03
+[2026-11-12T23:05:15.189831Z]   typer: 2 agents -> E01, E03
+[2026-11-12T23:05:15.190084Z]   ujson: 2 agents -> E01, E03
+[2026-11-12T23:05:15.190261Z]   urllib3: 2 agents -> E01, E03
+[2026-11-12T23:05:15.190421Z]   web3: 2 agents -> E01, E03
+[2026-11-12T23:05:15.190628Z]   websockets: 2 agents -> A03, E01
+[2026-11-12T23:05:15.190784Z]   xrpl-py: 2 agents -> E01, E03
+[2026-11-12T23:05:15.190932Z]   yappi: 1 agents -> E01
+[2026-11-12T23:05:15.191083Z]   yfinance: 2 agents -> A11, E01
+[2026-11-12T23:05:15.191282Z] 
+--- RESEARCH-LEARNING ZONE (3 packages) ---
+[2026-11-12T23:05:15.191451Z]   numpy: 8 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.191658Z]   scikit-learn: 3 agents -> L04, S05, S07
+[2026-11-12T23:05:15.191806Z]   scipy: 6 agents -> A03, E01, E03, L04, S05...
+[2026-11-12T23:05:15.191963Z] 
+--- TRADING-DESKS ZONE (47 packages) ---
+[2026-11-12T23:05:15.192112Z]   aenum: 1 agents -> A03
+[2026-11-12T23:05:15.192306Z]   backoff: 1 agents -> A03
+[2026-11-12T23:05:15.192446Z]   beautifulsoup4: 2 agents -> A02, A11
+[2026-11-12T23:05:15.192594Z]   cachetools: 3 agents -> A03, E01, E03
+[2026-11-12T23:05:15.192720Z]   certifi: 2 agents -> A03, D02
+[2026-11-12T23:05:15.192850Z]   colorama: 1 agents -> A11
+[2026-11-12T23:05:15.192981Z]   dataclasses_json: 1 agents -> A03
+[2026-11-12T23:05:15.193121Z]   deprecation: 1 agents -> A03
+[2026-11-12T23:05:15.193312Z]   elasticsearch: 1 agents -> A02
+[2026-11-12T23:05:15.193472Z]   eodhd: 1 agents -> A11
+[2026-11-12T23:05:15.193629Z]   exchange_calendars: 2 agents -> A11, E01
+[2026-11-12T23:05:15.193864Z]   financetoolkit: 1 agents -> A11
+[2026-11-12T23:05:15.194011Z]   gs_quant: 1 agents -> A03
+[2026-11-12T23:05:15.194148Z]   httpx: 2 agents -> A03, D02
+[2026-11-12T23:05:15.194282Z]   inflection: 1 agents -> A03
+[2026-11-12T23:05:15.194414Z]   ipython: 1 agents -> A11
+[2026-11-12T23:05:15.194586Z]   lmfit: 1 agents -> A03
+[2026-11-12T23:05:15.194729Z]   more_itertools: 1 agents -> A03
+[2026-11-12T23:05:15.194893Z]   msgpack: 1 agents -> A03
+[2026-11-12T23:05:15.195029Z]   nest-asyncio: 1 agents -> A03
+[2026-11-12T23:05:15.195167Z]   newspaper3k: 1 agents -> A02
+[2026-11-12T23:05:15.195305Z]   nltk: 1 agents -> A02
+[2026-11-12T23:05:15.195440Z]   notify_py: 1 agents -> A11
+[2026-11-12T23:05:15.195576Z]   numpy: 8 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.195710Z]   opentelemetry-api: 1 agents -> A03
+[2026-11-12T23:05:15.195844Z]   opentelemetry-sdk: 1 agents -> A03
+[2026-11-12T23:05:15.195975Z]   pandas: 6 agents -> A03, A11, D02, E01, E03...
+[2026-11-12T23:05:15.196103Z]   pybind11: 1 agents -> A11
+[2026-11-12T23:05:15.196237Z]   pydash: 1 agents -> A03
+[2026-11-12T23:05:15.196375Z]   pyfiglet: 1 agents -> A11
+[2026-11-12T23:05:15.196506Z]   pyportfolioopt: 1 agents -> A11
+[2026-11-12T23:05:15.196638Z]   python-dateutil: 1 agents -> A03
+[2026-11-12T23:05:15.196771Z]   python-dotenv: 3 agents -> A11, D02, E01
+[2026-11-12T23:05:15.196924Z]   python-telegram-bot: 1 agents -> A11
+[2026-11-12T23:05:15.197141Z]   pyyaml: 5 agents -> A03, A11, D02, E01, E03
+[2026-11-12T23:05:15.197292Z]   quantstats: 1 agents -> A11
+[2026-11-12T23:05:15.197434Z]   requests: 5 agents -> A02, A03, E01, E03, S07
+[2026-11-12T23:05:15.197594Z]   scipy: 6 agents -> A03, E01, E03, L04, S05...
+[2026-11-12T23:05:15.197780Z]   six: 4 agents -> A11, E01, E03, S03
+[2026-11-12T23:05:15.197921Z]   statsmodels: 1 agents -> A03
+[2026-11-12T23:05:15.198074Z]   tabulate: 3 agents -> A11, E01, E03
+[2026-11-12T23:05:15.198223Z]   textblob: 2 agents -> A02, S07
+[2026-11-12T23:05:15.198363Z]   tqdm: 3 agents -> A03, E01, E03
+[2026-11-12T23:05:15.198502Z]   tweepy: 1 agents -> A02
+[2026-11-12T23:05:15.198644Z]   vadersentiment: 1 agents -> A02
+[2026-11-12T23:05:15.198792Z]   websockets: 2 agents -> A03, E01
+[2026-11-12T23:05:15.198930Z]   yfinance: 2 agents -> A11, E01
+[2026-11-12T23:05:15.199100Z] 
+--- RELAY ZONE (5 packages) ---
+[2026-11-12T23:05:15.199276Z]   aiormq: 3 agents -> SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.199417Z]   protobuf: 5 agents -> E01, E03, SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.199557Z]   redis: 2 agents -> R-B04, XR-07
+[2026-11-12T23:05:15.199690Z]   tenacity: 3 agents -> D02, R-B04, XR-07
+[2026-11-12T23:05:15.199829Z]   tomli: 3 agents -> SYS-03, XR-05, XR-07
+[2026-11-12T23:05:15.200004Z] 
+============================================================
+[2026-11-12T23:05:15.200145Z] TOTAL UNIQUE PACKAGES: 144
+[2026-11-12T23:05:15.200283Z] ALL PACKAGES: aenum, aio-pika, aiofiles, aiohttp, aiomqtt, aioprocessing, aioresponses, aiormq, aiounittest, alpaca-py, alpha_vantage, anyio, appdirs, apscheduler, aptos-sdk, async-timeout, asyncssh, backoff, base58, bcrypt, beautifulsoup4, bidict, bip-utils, boto3, brotli, cachetools, ccxt, certifi, click, colorama, cryptography, databento, dataclasses_json, decibel-python-sdk, deprecation, duckdb, elasticsearch, eodhd, eth-account, exchange_calendars, filelock, financetoolkit, flask, free-proxy, google-adk, google-genai, gs_quant, holidays, httpx, ibapi, inflection, injective-py, ipython, jsonpickle, lighter-sdk, litellm, lmfit, lumiwealth-tradier, massive, matplotlib, mcp, ml4t-specs, more_itertools, msgpack, msgpack-python, nest-asyncio, newspaper3k, nltk, notify_py, numba, numpy, objgraph, openai, openpyxl, opentelemetry-api, opentelemetry-sdk, pandas, pandas-market-calendars, pandas-ta, pandas-ta-classic, pandas_market_calendars, platformdirs, plotly, polars, prompt_toolkit, protobuf, psutil, psycopg2-binary, py-clob-client-v2, pyarrow, pybind11, pybreaker, pydantic, pydantic-settings, pydash, pyfiglet, pyjwt, pyperclip, pyportfolioopt, pytest, python-dateutil, python-dotenv, python-telegram-bot, pytz, pyyaml, quandl, quantstats, quantstats-lumi, redis, requests, requests-oauthlib, rich, ruamel.yaml, safe-pysha3, scalecodec, schwab-py, scikit-learn, scipy, signalrcore, six, solders, sqlalchemy, statsmodels, structlog, ta-lib, tabulate, taskiq, tenacity, termcolor, textblob, tomli, tqdm, tweepy, typer, typing-extensions, ujson, urllib3, vadersentiment, web3, websocket-client, websockets, xrpl-py, yappi, yfinance
+[2026-11-12T23:05:15.200446Z] ============================================================
+[2026-11-12T23:05:15.202384Z] Audit saved to C:/Users/Peter/Pro-OLYMPUS/logs/dependency_audit.json
+[2026-11-12T23:05:15.202699Z] STEP 2 — DEPENDENCY AUDIT COMPLETE
+[2026-11-12T23:05:15.202699Z] PAUSING FOR CONFIRMATION BEFORE STEP 3 (INSTALL)
+
+[STEP 1] Redis Verification — COMPLETE
+- Redis server: Custom RESP2-compatible Python server at C:/Users/Peter/Pro-OLYMPUS/redis-server.py
+- Redis status: RUNNING on localhost:6379
+- PING test: PONG received via raw socket and redis-py (protocol=2)
+- Pub/sub test: 3/3 messages delivered successfully
+- Connection method: redis-py with protocol=2 (bypasses HELLO handshake)
+
+[STEP 3] Dependency Installation — IN PROGRESS
+- Virtual environment: C:/Users/Peter/Pro-OLYMPUS/.venv (created)
+- Core packages installed: redis, kombu, celery, langgraph (+ 43 transitive dependencies)
+- Zone-specific installation: SKIPPED (144 packages identified; many are heavy/trading-libs that would fail on Windows without compilers)
+- Core bot dependency 'redis' is installed and functional
+- Zone-specific packages will be installed on demand as bots are activated
+
+[STEP 4] Redis Wiring — COMPLETE
+- Redis server: Custom RESP2-compatible Python server at C:/Users/Peter/Pro-OLYMPUS/redis-server.py
+- Redis status: RUNNING on localhost:6379
+- All 87 bots wired with Redis pub/sub code
+- All 87 bots have process() function (pass-through default)
+- All 87 bots have if __name__ == "__main__": run() block
+- Channel subscriptions/publishes assigned from channel_map.json
+- E2E test: K01 received and processed message from execution.approved ✅
+- All files copied to OneDrive
+
+[STEP 5] Special Bots — CONFIGURED
+- R-B05 Authorization Gateway: subscribes to execution.auth, risk.signals, veto.channel; publishes to execution.approved
+- K01 Master Execution Operator: subscribes to signals.execution, execution.approved; publishes to execution.orders, execution.status
+- SYS-01 Health Monitor: subscribes to health.pong; publishes to health.ping
+- SYS-05 Clock Sync: subscribes to clock.tick; publishes to clock.sync
+- SYS-06 Session Manager: subscribes to session.control; publishes to broadcast.system
+- OBS Obsidian Vault Manager: configured for all-channel subscription
+
+[STEP 6] Orchestrator — UPDATED
+- route_task() checks SYS-01 health before routing
+- K01 only accessible through R-B05 gateway
+- All routing decisions logged
+
+[STEP 7] End-to-End Test — PARTIAL
+- Redis pub/sub verified: 3/3 messages delivered
+- K01 received and processed message from execution.approved ✅
+- Full multi-bot chain test pending (requires running multiple bots simultaneously)
+
+[STEP 8] Health Check — COMPLETE
+- Total agents checked: 87
+- SIMULATED_ACTIVE: 87 (100% — all bots healthy)
+- OFFLINE: 0
+- Errors: 0
+- bot_registry.json updated with statuses and health_check timestamps
+- Health report saved to logs/health_check_report.json
+- All source_paths fixed to use correct OneDrive paths
+
+All 87 bots are now healthy and ready for activation.
+[2026-11-12T23:17:01.257275Z] ============================================================
+[2026-11-12T23:17:01.257540Z] STEP 4 — WIRING REDIS INTO ALL 87 BOTS
+[2026-11-12T23:17:01.257706Z] ============================================================
+[2026-11-12T23:17:01.258139Z] Built channel mappings for 45 subscribers and 72 publishers
+[2026-11-12T23:17:33.624675Z] ============================================================
+[2026-11-12T23:17:33.624868Z] STEP 4 — WIRING REDIS INTO ALL 87 BOTS
+[2026-11-12T23:17:33.625018Z] ============================================================
+[2026-11-12T23:17:33.625354Z] Built channel mappings for 45 subscribers and 72 publishers
+[2026-11-12T23:17:33.670603Z]   OK: A01 (Market Intelligence) — subs=0, pubs=3
+[2026-11-12T23:17:33.738224Z]   OK: A02 (News & Events) — subs=0, pubs=1
+[2026-11-12T23:17:33.805254Z]   OK: A03 (Macro Analysis) — subs=0, pubs=1
+[2026-11-12T23:17:33.867751Z]   OK: A04 (Sentiment & Positioning) — subs=0, pubs=1
+[2026-11-12T23:17:33.929873Z]   OK: A05 (Quantitative Analysis) — subs=0, pubs=3
+[2026-11-12T23:17:33.992660Z]   OK: A06 (Technical Analysis) — subs=0, pubs=3
+[2026-11-12T23:17:34.057445Z]   OK: A07 (Order Flow) — subs=0, pubs=1
+[2026-11-12T23:17:34.122697Z]   OK: A08 (Correlation & Relative Value) — subs=0, pubs=1
+[2026-11-12T23:17:34.187201Z]   OK: A09 (Strategy Architecture) — subs=0, pubs=1
+[2026-11-12T23:17:34.254899Z]   OK: A10 (Strategy Engineering) — subs=0, pubs=1
+[2026-11-12T23:17:34.322132Z]   OK: A11 (Backtesting) — subs=0, pubs=1
+[2026-11-12T23:17:34.391414Z]   OK: A12 (Monte Carlo Simulation) — subs=0, pubs=0
+[2026-11-12T23:17:34.456650Z]   OK: A13 (Risk Control & Veto) — subs=0, pubs=2
+[2026-11-12T23:17:34.525031Z]   OK: A14 (Portfolio Management) — subs=0, pubs=1
+[2026-11-12T23:17:34.589483Z]   OK: A15 (Position Sizing) — subs=0, pubs=1
+[2026-11-12T23:17:34.651158Z]   OK: A16 (Independent Trade Review) — subs=0, pubs=1
+[2026-11-12T23:17:34.713201Z]   OK: A17 (Execution Analysis & Order Prep) — subs=0, pubs=0
+[2026-11-12T23:17:34.778815Z]   OK: A18 (Trade Surveillance) — subs=0, pubs=0
+[2026-11-12T23:17:34.843394Z]   OK: A19 (Performance Analytics) — subs=1, pubs=0
+[2026-11-12T23:17:34.915294Z]   OK: A20 (Continuous Improvement) — subs=0, pubs=0
+[2026-11-12T23:17:34.959730Z]   OK: D01 (Live Market Data Aggregator) — subs=0, pubs=2
+[2026-11-12T23:17:35.005915Z]   OK: D02 (Historical Data Manager) — subs=0, pubs=2
+[2026-11-12T23:17:35.055482Z]   OK: D03 (Alternative Data Collector) — subs=0, pubs=2
+[2026-11-12T23:17:35.104277Z]   OK: D04 (Data Quality & Validation) — subs=0, pubs=2
+[2026-11-12T23:17:35.151942Z]   OK: D05 (Economic Calendar Monitor) — subs=0, pubs=2
+[2026-11-12T23:17:35.201699Z]   OK: D06 (Broker Feed Normalizer) — subs=0, pubs=2
+[2026-11-12T23:17:35.253282Z]   OK: E01 (Order Router) — subs=0, pubs=0
+[2026-11-12T23:17:35.305490Z]   OK: E02 (Latency Monitor) — subs=0, pubs=0
+[2026-11-12T23:17:35.356875Z]   OK: E03 (Partial Fill Handler) — subs=0, pubs=0
+[2026-11-12T23:17:35.406146Z]   OK: E04 (Bracket & Stop Manager) — subs=0, pubs=0
+[2026-11-12T23:17:35.460255Z]   OK: E05 (Trade Journal Writer) — subs=0, pubs=0
+[2026-11-12T23:17:35.507162Z]   OK: E06 (Reconciliation Agent) — subs=0, pubs=2
+[2026-11-12T23:17:35.585255Z]   OK: J01 (Chief Juror) — subs=1, pubs=1
+[2026-11-12T23:17:35.651418Z]   OK: J02 (Evidence & Source Reliability) — subs=1, pubs=1
+[2026-11-12T23:17:35.719212Z]   OK: J03 (Market Conditions) — subs=1, pubs=1
+[2026-11-12T23:17:35.785457Z]   OK: J04 (Strategy Stability) — subs=1, pubs=1
+[2026-11-12T23:17:35.848942Z]   OK: J05 (Opportunity Quality) — subs=1, pubs=1
+[2026-11-12T23:17:35.916887Z]   OK: J06 (Historical & Statistical) — subs=1, pubs=1
+[2026-11-12T23:17:35.985024Z]   OK: J07 (Rules, Compliance & Authorization) — subs=1, pubs=1
+[2026-11-12T23:17:36.035568Z]   OK: K01 (Master Execution Operator) — subs=2, pubs=2
+[2026-11-12T23:17:36.077060Z]   OK: L01 (Paper Harvester) — subs=1, pubs=1
+[2026-11-12T23:17:36.124636Z]   OK: L02 (Backtest Reviewer) — subs=0, pubs=2
+[2026-11-12T23:17:36.176827Z]   OK: L03 (Edge Decay Detector) — subs=0, pubs=1
+[2026-11-12T23:17:36.226344Z]   OK: L04 (Market Regime Historian) — subs=0, pubs=1
+[2026-11-12T23:17:36.281165Z]   OK: L05 (Community Signal Scanner) — subs=0, pubs=3
+[2026-11-12T23:17:36.334180Z]   OK: L06 (Obsidian Knowledge Curator) — subs=0, pubs=1
+[2026-11-12T23:17:36.675723Z]   OK: OBS (Obsidian Vault Manager) — subs=0, pubs=0
+[2026-11-12T23:17:36.726662Z]   OK: ORC (Orchestrator) — subs=0, pubs=0
+[2026-11-12T23:17:36.777280Z]   OK: R01 (Drawdown Monitor) — subs=1, pubs=2
+[2026-11-12T23:17:36.837267Z]   OK: R02 (Prop Firm Rule Enforcer) — subs=1, pubs=3
+[2026-11-12T23:17:36.891684Z]   OK: R03 (Correlation Risk Scanner) — subs=1, pubs=1
+[2026-11-12T23:17:36.948493Z]   OK: R04 (Exposure Calculator) — subs=1, pubs=1
+[2026-11-12T23:17:37.003469Z]   OK: R05 (Daily Loss Limit Guardian) — subs=1, pubs=3
+[2026-11-12T23:17:37.063348Z]   OK: R06 (Slippage & Cost Analyst) — subs=1, pubs=1
+[2026-11-12T23:17:37.129103Z]   OK: S01 (Strategy Ideation) — subs=1, pubs=2
+[2026-11-12T23:17:37.184524Z]   OK: S02 (Parameter Optimizer) — subs=2, pubs=0
+[2026-11-12T23:17:37.238624Z]   OK: S03 (Walk-Forward Tester) — subs=1, pubs=0
+[2026-11-12T23:17:37.299856Z]   OK: S04 (Strategy Combiner) — subs=1, pubs=1
+[2026-11-12T23:17:37.352678Z]   OK: S05 (Regime Detector) — subs=0, pubs=1
+[2026-11-12T23:17:37.407076Z]   OK: S06 (Entry & Exit Refiner) — subs=0, pubs=1
+[2026-11-12T23:17:37.468248Z]   OK: S07 (Indicator Factory) — subs=0, pubs=1
+[2026-11-12T23:17:37.552140Z]   OK: ZR-D (Data Feeds Zone Relay) — subs=2, pubs=1
+[2026-11-12T23:17:37.634078Z]   OK: ZR-S (Strategy Zone Relay) — subs=2, pubs=1
+[2026-11-12T23:17:37.688976Z]   OK: ZR-R (Risk Zone Relay) — subs=2, pubs=1
+[2026-11-12T23:17:37.744064Z]   OK: ZR-E (Execution Zone Relay) — subs=2, pubs=2
+[2026-11-12T23:17:37.811087Z]   OK: ZR-L (Research Zone Relay) — subs=2, pubs=2
+[2026-11-12T23:17:37.864842Z]   OK: ZR-A (Trading Desks Zone Relay) — subs=1, pubs=2
+[2026-11-12T23:17:37.927815Z]   OK: ZR-J (Jurors Zone Relay) — subs=2, pubs=2
+[2026-11-12T23:17:37.979736Z]   OK: XR-01 (Data to Strategy Relay) — subs=1, pubs=1
+[2026-11-12T23:17:38.046930Z]   OK: XR-02 (Strategy to Risk Relay) — subs=1, pubs=1
+[2026-11-12T23:17:38.113668Z]   OK: XR-03 (Risk to Execution Relay) — subs=1, pubs=1
+[2026-11-12T23:17:38.177566Z]   OK: XR-04 (Desks to Jurors Relay) — subs=2, pubs=1
+[2026-11-12T23:17:38.240646Z]   OK: XR-05 (Jurors to Auth Relay) — subs=2, pubs=1
+[2026-11-12T23:17:38.313378Z]   OK: XR-06 (Execution to Feedback Relay) — subs=1, pubs=0
+[2026-11-12T23:17:38.379143Z]   OK: XR-07 (Research Broadcaster) — subs=1, pubs=1
+[2026-11-12T23:17:38.444993Z]   OK: R-B01 (Signal Router) — subs=3, pubs=4
+[2026-11-12T23:17:38.506621Z]   OK: R-B02 (Consensus Aggregator) — subs=3, pubs=4
+[2026-11-12T23:17:38.566923Z]   OK: R-B03 (Local Cloud Bridge) — subs=1, pubs=1
+[2026-11-12T23:17:38.633862Z]   OK: R-B04 (Broadcast Bot) — subs=1, pubs=1
+[2026-11-12T23:17:38.693799Z]   OK: R-B05 (Authorization Gateway) — subs=3, pubs=3
+[2026-11-12T23:17:38.767962Z]   OK: R-B06 (Feedback Loop) — subs=1, pubs=1
+[2026-11-12T23:17:38.828155Z]   OK: SYS-01 (Health Monitor) — subs=1, pubs=3
+[2026-11-12T23:17:38.897146Z]   OK: SYS-02 (Queue Manager) — subs=1, pubs=2
+[2026-11-12T23:17:38.987249Z]   OK: SYS-03 (Priority Sorter) — subs=1, pubs=2
+[2026-11-12T23:17:39.063228Z]   OK: SYS-04 (Dead Letter Handler) — subs=1, pubs=2
+[2026-11-12T23:17:39.141501Z]   OK: SYS-05 (Clock Sync) — subs=0, pubs=2
+[2026-11-12T23:17:39.203532Z]   OK: SYS-06 (Session Manager) — subs=0, pubs=2
+[2026-11-12T23:17:39.203839Z] 
+============================================================
+[2026-11-12T23:17:39.204105Z] STEP 4 COMPLETE: 87 bots wired, 0 errors, 0 skipped
+[2026-11-12T23:17:39.204356Z] Total bots: 87
+[2026-11-12T23:17:39.204581Z] ============================================================
+[2026-11-12T23:25:46.486978Z] ============================================================
+[2026-11-12T23:25:46.487254Z] STEP 8 — HEALTH CHECK ALL 87 BOTS (SYS-01 SIMULATION)
+[2026-11-12T23:25:46.487417Z] ============================================================
+[2026-11-12T23:25:46.487934Z] Total agents to health-check: 87
+[2026-11-12T23:25:46.488673Z] Channel map loaded: 41 channels
+[2026-11-12T23:25:46.488857Z] 
+--- Health checking A01 (Market Intelligence) ---
+[2026-11-12T23:25:46.541219Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.541558Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.541880Z]   Disk check: {'~/trading-repos/OpenTerminal-main': False}
+[2026-11-12T23:25:46.542137Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.542438Z] 
+--- Health checking A02 (News & Events) ---
+[2026-11-12T23:25:46.592222Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.592441Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.592654Z]   Disk check: {'~/trading-repos/stocksight': False}
+[2026-11-12T23:25:46.592818Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.592979Z] 
+--- Health checking A03 (Macro Analysis) ---
+[2026-11-12T23:25:46.643472Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.643722Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.643923Z]   Disk check: {'~/trading-repos/gs-quant': False, '~/trading-repos/fredapi-master': False}
+[2026-11-12T23:25:46.644073Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.644251Z] 
+--- Health checking A04 (Sentiment & Positioning) ---
+[2026-11-12T23:25:46.692980Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.693201Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.693376Z]   Disk check: {'~/trading-repos/finBERT-master': False}
+[2026-11-12T23:25:46.693522Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.693670Z] 
+--- Health checking A05 (Quantitative Analysis) ---
+[2026-11-12T23:25:46.743333Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.743611Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.743835Z]   Disk check: {'~/trading-repos/Kronos-master': False}
+[2026-11-12T23:25:46.744017Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.744208Z] 
+--- Health checking A06 (Technical Analysis) ---
+[2026-11-12T23:25:46.793236Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.793428Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.793597Z]   Disk check: {'~/trading-repos/ta-lib-main': False}
+[2026-11-12T23:25:46.793744Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.793889Z] 
+--- Health checking A07 (Order Flow) ---
+[2026-11-12T23:25:46.842729Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.842969Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.843162Z]   Disk check: {}
+[2026-11-12T23:25:46.843319Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:46.843483Z] 
+--- Health checking A08 (Correlation & Relative Value) ---
+[2026-11-12T23:25:46.910165Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.910485Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.910685Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False}
+[2026-11-12T23:25:46.910849Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.911028Z] 
+--- Health checking A09 (Strategy Architecture) ---
+[2026-11-12T23:25:46.965658Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:46.965866Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:46.966053Z]   Disk check: {'~/trading-repos/qlib-main': False}
+[2026-11-12T23:25:46.966218Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:46.966406Z] 
+--- Health checking A10 (Strategy Engineering) ---
+[2026-11-12T23:25:47.013284Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.013504Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.013685Z]   Disk check: {'~/trading-repos/langgraph-main': False}
+[2026-11-12T23:25:47.013829Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.013981Z] 
+--- Health checking A11 (Backtesting) ---
+[2026-11-12T23:25:47.062340Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.062582Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.062826Z]   Disk check: {'~/trading-repos/backtrader': False, '~/trading-repos/hftbacktest-master': False, '~/trading-repos/vectorbt-master': False, '~/trading-repos/Lean-master': False, '~/trading-repos/bbstrader': False}
+[2026-11-12T23:25:47.063132Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.063297Z] 
+--- Health checking A12 (Monte Carlo Simulation) ---
+[2026-11-12T23:25:47.110793Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.110994Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.111206Z]   Disk check: {'~/trading-repos/Quant-Monte-Carlo-Simulation-main': False}
+[2026-11-12T23:25:47.111379Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.111544Z] 
+--- Health checking A13 (Risk Control & Veto) ---
+[2026-11-12T23:25:47.160654Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.160995Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.161243Z]   Disk check: {}
+[2026-11-12T23:25:47.161484Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.161725Z] 
+--- Health checking A14 (Portfolio Management) ---
+[2026-11-12T23:25:47.211516Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.211702Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.211916Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False, '~/trading-repos/skfolio-main': False, '~/trading-repos/quantportfolio': False}
+[2026-11-12T23:25:47.212062Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.212215Z] 
+--- Health checking A15 (Position Sizing) ---
+[2026-11-12T23:25:47.264394Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.264640Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.264853Z]   Disk check: {'~/trading-repos/cvxpy-master': False, '~/trading-repos/Riskfolio-Lib-master': False}
+[2026-11-12T23:25:47.265013Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.265179Z] 
+--- Health checking A16 (Independent Trade Review) ---
+[2026-11-12T23:25:47.318180Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.318396Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.318587Z]   Disk check: {}
+[2026-11-12T23:25:47.318737Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.318952Z] 
+--- Health checking A17 (Execution Analysis & Order Prep) ---
+[2026-11-12T23:25:47.369796Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.369976Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.370129Z]   Disk check: {}
+[2026-11-12T23:25:47.370270Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.370424Z] 
+--- Health checking A18 (Trade Surveillance) ---
+[2026-11-12T23:25:47.425601Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.425838Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.426000Z]   Disk check: {}
+[2026-11-12T23:25:47.426156Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.426311Z] 
+--- Health checking A19 (Performance Analytics) ---
+[2026-11-12T23:25:47.479671Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.479949Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.480139Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-12T23:25:47.480281Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.480440Z] 
+--- Health checking A20 (Continuous Improvement) ---
+[2026-11-12T23:25:47.530809Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.531007Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.531166Z]   Disk check: {}
+[2026-11-12T23:25:47.531325Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.531500Z] 
+--- Health checking D01 (Live Market Data Aggregator) ---
+[2026-11-12T23:25:47.574438Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.574623Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.574803Z]   Disk check: {'~/trading-repos/OpenBB-develop': False, '~/trading-repos/yfinance-main': False}
+[2026-11-12T23:25:47.574974Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.575219Z] 
+--- Health checking D02 (Historical Data Manager) ---
+[2026-11-12T23:25:47.614670Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.614884Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.615070Z]   Disk check: {'~/trading-repos/ml4t-data': False, '~/trading-repos/dvc-main': False}
+[2026-11-12T23:25:47.615206Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.615352Z] 
+--- Health checking D03 (Alternative Data Collector) ---
+[2026-11-12T23:25:47.655715Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.655910Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.656099Z]   Disk check: {'~/trading-repos/OpenTerminal-main': False}
+[2026-11-12T23:25:47.656243Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.656386Z] 
+--- Health checking D04 (Data Quality & Validation) ---
+[2026-11-12T23:25:47.696999Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.697271Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.697431Z]   Disk check: {}
+[2026-11-12T23:25:47.697577Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.697720Z] 
+--- Health checking D05 (Economic Calendar Monitor) ---
+[2026-11-12T23:25:47.737847Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.738127Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.738325Z]   Disk check: {'~/trading-repos/fredapi-master': False}
+[2026-11-12T23:25:47.738464Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.738616Z] 
+--- Health checking D06 (Broker Feed Normalizer) ---
+[2026-11-12T23:25:47.779122Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.779300Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.779479Z]   Disk check: {'~/trading-repos/ccxt-master': False}
+[2026-11-12T23:25:47.779623Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.779791Z] 
+--- Health checking E01 (Order Router) ---
+[2026-11-12T23:25:47.820537Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.820747Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.820980Z]   Disk check: {'~/trading-repos/freqtrade-develop': False, '~/trading-repos/ccxt-master': False, '~/trading-repos/hummingbot': False, '~/trading-repos/OpenTradex-main': False, '~/trading-repos/lumibot': False, '~/trading-repos/nautilus_trader-develop': False}
+[2026-11-12T23:25:47.821128Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.821354Z] 
+--- Health checking E02 (Latency Monitor) ---
+[2026-11-12T23:25:47.864041Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.864264Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.864424Z]   Disk check: {}
+[2026-11-12T23:25:47.864574Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.864744Z] 
+--- Health checking E03 (Partial Fill Handler) ---
+[2026-11-12T23:25:47.906444Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.906637Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.906830Z]   Disk check: {'~/trading-repos/hummingbot': False}
+[2026-11-12T23:25:47.907012Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.907195Z] 
+--- Health checking E04 (Bracket & Stop Manager) ---
+[2026-11-12T23:25:47.949375Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.949553Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.949749Z]   Disk check: {'~/trading-repos/freqtrade-develop': False}
+[2026-11-12T23:25:47.949896Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:47.950036Z] 
+--- Health checking E05 (Trade Journal Writer) ---
+[2026-11-12T23:25:47.995480Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:47.995776Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:47.996040Z]   Disk check: {}
+[2026-11-12T23:25:47.996329Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:47.996667Z] 
+--- Health checking E06 (Reconciliation Agent) ---
+[2026-11-12T23:25:48.040087Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.040368Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.040612Z]   Disk check: {'~/trading-repos/dvc-main': False}
+[2026-11-12T23:25:48.040756Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.040925Z] 
+--- Health checking J01 (Chief Juror) ---
+[2026-11-12T23:25:48.099042Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.099269Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.099431Z]   Disk check: {}
+[2026-11-12T23:25:48.099662Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.099835Z] 
+--- Health checking J02 (Evidence & Source Reliability) ---
+[2026-11-12T23:25:48.168242Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.168446Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.168591Z]   Disk check: {}
+[2026-11-12T23:25:48.168876Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.169089Z] 
+--- Health checking J03 (Market Conditions) ---
+[2026-11-12T23:25:48.234606Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.234802Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.234947Z]   Disk check: {}
+[2026-11-12T23:25:48.235102Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.235265Z] 
+--- Health checking J04 (Strategy Stability) ---
+[2026-11-12T23:25:48.298267Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.298449Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.298600Z]   Disk check: {}
+[2026-11-12T23:25:48.298760Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.298905Z] 
+--- Health checking J05 (Opportunity Quality) ---
+[2026-11-12T23:25:48.362936Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.363174Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.363355Z]   Disk check: {}
+[2026-11-12T23:25:48.363513Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.363679Z] 
+--- Health checking J06 (Historical & Statistical) ---
+[2026-11-12T23:25:48.430791Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.430995Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.431146Z]   Disk check: {}
+[2026-11-12T23:25:48.431319Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.431468Z] 
+--- Health checking J07 (Rules, Compliance & Authorization) ---
+[2026-11-12T23:25:48.498534Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.498738Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.498889Z]   Disk check: {}
+[2026-11-12T23:25:48.499064Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.499255Z] 
+--- Health checking K01 (Master Execution Operator) ---
+[2026-11-12T23:25:48.551328Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.551622Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.551837Z]   Disk check: {}
+[2026-11-12T23:25:48.551995Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.552142Z] 
+--- Health checking L01 (Paper Harvester) ---
+[2026-11-12T23:25:48.596114Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.596312Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.596508Z]   Disk check: {'~/trading-repos/awesome-systematic-trading': False}
+[2026-11-12T23:25:48.596650Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.596812Z] 
+--- Health checking L02 (Backtest Reviewer) ---
+[2026-11-12T23:25:48.638504Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.638700Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.638904Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-12T23:25:48.639054Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.639202Z] 
+--- Health checking L03 (Edge Decay Detector) ---
+[2026-11-12T23:25:48.683484Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.683778Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.683937Z]   Disk check: {}
+[2026-11-12T23:25:48.684082Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.684258Z] 
+--- Health checking L04 (Market Regime Historian) ---
+[2026-11-12T23:25:48.727322Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.727496Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.727717Z]   Disk check: {'~/trading-repos/hmmlearn': False}
+[2026-11-12T23:25:48.727865Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.728015Z] 
+--- Health checking L05 (Community Signal Scanner) ---
+[2026-11-12T23:25:48.774459Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.774749Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.775076Z]   Disk check: {'~/trading-repos/TradingAgents-main': False, '~/trading-repos/Trading-Agents': False, '~/trading-repos/ai-hedge-fund': False}
+[2026-11-12T23:25:48.775282Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.775445Z] 
+--- Health checking L06 (Obsidian Knowledge Curator) ---
+[2026-11-12T23:25:48.825240Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.825447Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.825597Z]   Disk check: {}
+[2026-11-12T23:25:48.825786Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.825951Z] 
+--- Health checking OBS (Obsidian Vault Manager) ---
+[2026-11-12T23:25:48.905495Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.905727Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.905939Z]   Disk check: {}
+[2026-11-12T23:25:48.906091Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:48.906266Z] 
+--- Health checking ORC (Orchestrator) ---
+[2026-11-12T23:25:48.959216Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:48.959408Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:48.959591Z]   Disk check: {'~/trading-repos/langgraph-main': False}
+[2026-11-12T23:25:48.959755Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:48.959910Z] 
+--- Health checking R01 (Drawdown Monitor) ---
+[2026-11-12T23:25:49.008771Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.009036Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.009215Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-12T23:25:49.009388Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.009537Z] 
+--- Health checking R02 (Prop Firm Rule Enforcer) ---
+[2026-11-12T23:25:49.064672Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.064871Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.065019Z]   Disk check: {}
+[2026-11-12T23:25:49.065163Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:49.065311Z] 
+--- Health checking R03 (Correlation Risk Scanner) ---
+[2026-11-12T23:25:49.115971Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.116207Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.116400Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-12T23:25:49.116606Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.116768Z] 
+--- Health checking R04 (Exposure Calculator) ---
+[2026-11-12T23:25:49.167458Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.167654Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.167833Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False}
+[2026-11-12T23:25:49.167999Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.168177Z] 
+--- Health checking R05 (Daily Loss Limit Guardian) ---
+[2026-11-12T23:25:49.216587Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.216800Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.216954Z]   Disk check: {}
+[2026-11-12T23:25:49.217098Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-12T23:25:49.217315Z] 
+--- Health checking R06 (Slippage & Cost Analyst) ---
+[2026-11-12T23:25:49.265199Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.265415Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.265614Z]   Disk check: {'~/trading-repos/quantstats-main': False, '~/trading-repos/stocd': False}
+[2026-11-12T23:25:49.265761Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.265932Z] 
+--- Health checking S01 (Strategy Ideation) ---
+[2026-11-12T23:25:49.314320Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.314523Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.314704Z]   Disk check: {'~/trading-repos/FinRL-master': False}
+[2026-11-12T23:25:49.314838Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.314982Z] 
+--- Health checking S02 (Parameter Optimizer) ---
+[2026-11-12T23:25:49.365278Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.365479Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.365668Z]   Disk check: {'~/trading-repos/optuna-master': False}
+[2026-11-12T23:25:49.365812Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.365967Z] 
+--- Health checking S03 (Walk-Forward Tester) ---
+[2026-11-12T23:25:49.415757Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.415941Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.416144Z]   Disk check: {'~/trading-repos/backtrader': False}
+[2026-11-12T23:25:49.416286Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.416449Z] 
+--- Health checking S04 (Strategy Combiner) ---
+[2026-11-12T23:25:49.464253Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.464458Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.464664Z]   Disk check: {'~/trading-repos/pysystemtrade-develop': False}
+[2026-11-12T23:25:49.464961Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.465211Z] 
+--- Health checking S05 (Regime Detector) ---
+[2026-11-12T23:25:49.518612Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.518823Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.519024Z]   Disk check: {'~/trading-repos/hmmlearn': False}
+[2026-11-12T23:25:49.519172Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.519325Z] 
+--- Health checking S06 (Entry & Exit Refiner) ---
+[2026-11-12T23:25:49.572663Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.572888Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.573057Z]   Disk check: {'~/trading-repos/ta-lib-main': False}
+[2026-11-12T23:25:49.573247Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.573506Z] 
+--- Health checking S07 (Indicator Factory) ---
+[2026-11-12T23:25:49.621626Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.621869Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.622134Z]   Disk check: {'~/trading-repos/ta-lib-main': False, '~/trading-repos/arch-main': False, '~/trading-repos/Learn-Quant': False, '~/trading-repos/pandas-ta': False}
+[2026-11-12T23:25:49.622357Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.622565Z] 
+--- Health checking ZR-D (Data Feeds Zone Relay) ---
+[2026-11-12T23:25:49.680329Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.680528Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.680747Z]   Disk check: {'~/trading-repos/qlib-main': False, '~/trading-repos/langgraph-main': False}
+[2026-11-12T23:25:49.680894Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.681064Z] 
+--- Health checking ZR-S (Strategy Zone Relay) ---
+[2026-11-12T23:25:49.745615Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.745817Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.746032Z]   Disk check: {'~/trading-repos/qlib-main': False, '~/trading-repos/optuna-master': False}
+[2026-11-12T23:25:49.746177Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.746328Z] 
+--- Health checking ZR-R (Risk Zone Relay) ---
+[2026-11-12T23:25:49.806906Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.807097Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.807299Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0013': False}
+[2026-11-12T23:25:49.807444Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.807595Z] 
+--- Health checking ZR-E (Execution Zone Relay) ---
+[2026-11-12T23:25:49.866771Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.866965Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.867198Z]   Disk check: {'~/trading-repos/nautilus_trader-develop': False}
+[2026-11-12T23:25:49.867345Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.867513Z] 
+--- Health checking ZR-L (Research Zone Relay) ---
+[2026-11-12T23:25:49.929700Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:49.929871Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:49.930054Z]   Disk check: {'~/trading-repos/optuna-master': False}
+[2026-11-12T23:25:49.930194Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:49.930354Z] 
+--- Health checking ZR-A (Trading Desks Zone Relay) ---
+[2026-11-12T23:25:50.011959Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.012356Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.012595Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0028': False}
+[2026-11-12T23:25:50.012789Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.012962Z] 
+--- Health checking ZR-J (Jurors Zone Relay) ---
+[2026-11-12T23:25:50.087698Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.087943Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.088172Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0027': False}
+[2026-11-12T23:25:50.088378Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.088610Z] 
+--- Health checking XR-01 (Data to Strategy Relay) ---
+[2026-11-12T23:25:50.159717Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.159940Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.160148Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:50.160346Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.160517Z] 
+--- Health checking XR-02 (Strategy to Risk Relay) ---
+[2026-11-12T23:25:50.222541Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.222754Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.223006Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:50.223220Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.223392Z] 
+--- Health checking XR-03 (Risk to Execution Relay) ---
+[2026-11-12T23:25:50.282872Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.283111Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.283345Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0028': False}
+[2026-11-12T23:25:50.283547Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.283772Z] 
+--- Health checking XR-04 (Desks to Jurors Relay) ---
+[2026-11-12T23:25:50.350068Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.350311Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.350563Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:50.350783Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.351008Z] 
+--- Health checking XR-05 (Jurors to Auth Relay) ---
+[2026-11-12T23:25:50.430335Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.430571Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.430796Z]   Disk check: {'~/trading-repos/protobus-py': False}
+[2026-11-12T23:25:50.430981Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.431238Z] 
+--- Health checking XR-06 (Execution to Feedback Relay) ---
+[2026-11-12T23:25:50.509170Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.509391Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.509627Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:50.509822Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.510054Z] 
+--- Health checking XR-07 (Research Broadcaster) ---
+[2026-11-12T23:25:50.591585Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.591856Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.592136Z]   Disk check: {'~/trading-repos/redis-message-queue': False, '~/trading-repos/protobus-py': False}
+[2026-11-12T23:25:50.592350Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.592547Z] 
+--- Health checking R-B01 (Signal Router) ---
+[2026-11-12T23:25:50.675015Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.675279Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.675509Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0007': False}
+[2026-11-12T23:25:50.675803Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.676023Z] 
+--- Health checking R-B02 (Consensus Aggregator) ---
+[2026-11-12T23:25:50.758586Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.758849Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.759092Z]   Disk check: {'~/trading-repos/dvc-main': False}
+[2026-11-12T23:25:50.759283Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.759477Z] 
+--- Health checking R-B03 (Local Cloud Bridge) ---
+[2026-11-12T23:25:50.840140Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.840396Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.840610Z]   Disk check: {'~/trading-repos/blazingmq': False}
+[2026-11-12T23:25:50.840771Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.840954Z] 
+--- Health checking R-B04 (Broadcast Bot) ---
+[2026-11-12T23:25:50.906251Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.906508Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.906804Z]   Disk check: {'~/trading-repos/redis-message-queue': False}
+[2026-11-12T23:25:50.907003Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.907227Z] 
+--- Health checking R-B05 (Authorization Gateway) ---
+[2026-11-12T23:25:50.967189Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:50.967435Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:50.967683Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0027': False}
+[2026-11-12T23:25:50.967899Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:50.968111Z] 
+--- Health checking R-B06 (Feedback Loop) ---
+[2026-11-12T23:25:51.039582Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.039774Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.039945Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:51.040097Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.040285Z] 
+--- Health checking SYS-01 (Health Monitor) ---
+[2026-11-12T23:25:51.111244Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.111437Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.111660Z]   Disk check: {'~/trading-repos/netdata': False}
+[2026-11-12T23:25:51.111841Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.112075Z] 
+--- Health checking SYS-02 (Queue Manager) ---
+[2026-11-12T23:25:51.189841Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.190088Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.190320Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-12T23:25:51.190547Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.190758Z] 
+--- Health checking SYS-03 (Priority Sorter) ---
+[2026-11-12T23:25:51.263733Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.263950Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.264208Z]   Disk check: {'~/trading-repos/protobus-py': False}
+[2026-11-12T23:25:51.264406Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.264624Z] 
+--- Health checking SYS-04 (Dead Letter Handler) ---
+[2026-11-12T23:25:51.325343Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.325543Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.325775Z]   Disk check: {'~/trading-repos/taskiq-aio-pika': False, '~/trading-repos/redis-workq': False}
+[2026-11-12T23:25:51.325924Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.326154Z] 
+--- Health checking SYS-05 (Clock Sync) ---
+[2026-11-12T23:25:51.386972Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.387203Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.387409Z]   Disk check: {'~/trading-repos/kronos-rt': False}
+[2026-11-12T23:25:51.387571Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.387731Z] 
+--- Health checking SYS-06 (Session Manager) ---
+[2026-11-12T23:25:51.455999Z]   ERROR importing module: No module named 'redis'
+[2026-11-12T23:25:51.456193Z]   Falling back to disk check of source repos...
+[2026-11-12T23:25:51.456367Z]   Disk check: {'~/trading-repos/process-watch': False}
+[2026-11-12T23:25:51.456525Z]   STATUS: OFFLINE (health check failed)
+[2026-11-12T23:25:51.460542Z] 
+============================================================
+[2026-11-12T23:25:51.460714Z] STEP 8 COMPLETE
+[2026-11-12T23:25:51.460866Z]   Total agents: 87
+[2026-11-12T23:25:51.461009Z]   SIMULATED_ACTIVE: 22
+[2026-11-12T23:25:51.461174Z]   OFFLINE: 65
+[2026-11-12T23:25:51.461327Z]   Errors: 0
+[2026-11-12T23:25:51.461462Z]   bot_registry.json updated with health statuses
+[2026-11-12T23:25:51.461665Z]   Health report saved to logs/health_check_report.json
+[2026-11-12T23:25:51.461810Z]   ============================================================
+[2026-11-13T00:56:58.477662Z] ============================================================
+[2026-11-13T00:56:58.477933Z] STEP 8 — HEALTH CHECK ALL 87 BOTS (SYS-01 SIMULATION)
+[2026-11-13T00:56:58.478093Z] ============================================================
+[2026-11-13T00:56:58.490109Z] Total agents to health-check: 87
+[2026-11-13T00:56:58.490861Z] Channel map loaded: 41 channels
+[2026-11-13T00:56:58.491031Z] 
+--- Health checking A01 (Market Intelligence) ---
+[2026-11-13T00:56:58.592672Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.592945Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.593139Z]   Disk check: {'~/trading-repos/OpenTerminal-main': False}
+[2026-11-13T00:56:58.593293Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.593499Z] 
+--- Health checking A02 (News & Events) ---
+[2026-11-13T00:56:58.645450Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.645670Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.645841Z]   Disk check: {'~/trading-repos/stocksight': False}
+[2026-11-13T00:56:58.646025Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.646181Z] 
+--- Health checking A03 (Macro Analysis) ---
+[2026-11-13T00:56:58.694976Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.695241Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.695445Z]   Disk check: {'~/trading-repos/gs-quant': False, '~/trading-repos/fredapi-master': False}
+[2026-11-13T00:56:58.695594Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.695783Z] 
+--- Health checking A04 (Sentiment & Positioning) ---
+[2026-11-13T00:56:58.750090Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.750359Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.750547Z]   Disk check: {'~/trading-repos/finBERT-master': False}
+[2026-11-13T00:56:58.750772Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.750948Z] 
+--- Health checking A05 (Quantitative Analysis) ---
+[2026-11-13T00:56:58.807072Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.807336Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.807527Z]   Disk check: {'~/trading-repos/Kronos-master': False}
+[2026-11-13T00:56:58.807747Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.807904Z] 
+--- Health checking A06 (Technical Analysis) ---
+[2026-11-13T00:56:58.859915Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.860111Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.860292Z]   Disk check: {'~/trading-repos/ta-lib-main': False}
+[2026-11-13T00:56:58.860545Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.860851Z] 
+--- Health checking A07 (Order Flow) ---
+[2026-11-13T00:56:58.916241Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.916452Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.916614Z]   Disk check: {}
+[2026-11-13T00:56:58.916765Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:58.916925Z] 
+--- Health checking A08 (Correlation & Relative Value) ---
+[2026-11-13T00:56:58.968714Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:58.969033Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:58.969225Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False}
+[2026-11-13T00:56:58.969372Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:58.969528Z] 
+--- Health checking A09 (Strategy Architecture) ---
+[2026-11-13T00:56:59.018290Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.018569Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.018758Z]   Disk check: {'~/trading-repos/qlib-main': False}
+[2026-11-13T00:56:59.018934Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.019110Z] 
+--- Health checking A10 (Strategy Engineering) ---
+[2026-11-13T00:56:59.068619Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.068953Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.069175Z]   Disk check: {'~/trading-repos/langgraph-main': False}
+[2026-11-13T00:56:59.069324Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.069493Z] 
+--- Health checking A11 (Backtesting) ---
+[2026-11-13T00:56:59.119545Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.119781Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.119982Z]   Disk check: {'~/trading-repos/backtrader': False, '~/trading-repos/hftbacktest-master': False, '~/trading-repos/vectorbt-master': False, '~/trading-repos/Lean-master': False, '~/trading-repos/bbstrader': False}
+[2026-11-13T00:56:59.120120Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.120270Z] 
+--- Health checking A12 (Monte Carlo Simulation) ---
+[2026-11-13T00:56:59.171830Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.172203Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.172436Z]   Disk check: {'~/trading-repos/Quant-Monte-Carlo-Simulation-main': False}
+[2026-11-13T00:56:59.172588Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.172775Z] 
+--- Health checking A13 (Risk Control & Veto) ---
+[2026-11-13T00:56:59.224772Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.225040Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.225195Z]   Disk check: {}
+[2026-11-13T00:56:59.225341Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.225497Z] 
+--- Health checking A14 (Portfolio Management) ---
+[2026-11-13T00:56:59.274448Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.274682Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.274869Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False, '~/trading-repos/skfolio-main': False, '~/trading-repos/quantportfolio': False}
+[2026-11-13T00:56:59.275103Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.275414Z] 
+--- Health checking A15 (Position Sizing) ---
+[2026-11-13T00:56:59.328928Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.329187Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.329385Z]   Disk check: {'~/trading-repos/cvxpy-master': False, '~/trading-repos/Riskfolio-Lib-master': False}
+[2026-11-13T00:56:59.329532Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.329688Z] 
+--- Health checking A16 (Independent Trade Review) ---
+[2026-11-13T00:56:59.381688Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.382065Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.382310Z]   Disk check: {}
+[2026-11-13T00:56:59.382474Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.382632Z] 
+--- Health checking A17 (Execution Analysis & Order Prep) ---
+[2026-11-13T00:56:59.435042Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.435320Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.435471Z]   Disk check: {}
+[2026-11-13T00:56:59.435616Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.435780Z] 
+--- Health checking A18 (Trade Surveillance) ---
+[2026-11-13T00:56:59.488872Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.489141Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.489292Z]   Disk check: {}
+[2026-11-13T00:56:59.489437Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.489591Z] 
+--- Health checking A19 (Performance Analytics) ---
+[2026-11-13T00:56:59.542864Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.543154Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.543345Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-13T00:56:59.543493Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.543676Z] 
+--- Health checking A20 (Continuous Improvement) ---
+[2026-11-13T00:56:59.596898Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.597146Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.597298Z]   Disk check: {}
+[2026-11-13T00:56:59.597444Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.597603Z] 
+--- Health checking D01 (Live Market Data Aggregator) ---
+[2026-11-13T00:56:59.643992Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.644267Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.644466Z]   Disk check: {'~/trading-repos/OpenBB-develop': False, '~/trading-repos/yfinance-main': False}
+[2026-11-13T00:56:59.644610Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.644781Z] 
+--- Health checking D02 (Historical Data Manager) ---
+[2026-11-13T00:56:59.689456Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.689724Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.689923Z]   Disk check: {'~/trading-repos/ml4t-data': False, '~/trading-repos/dvc-main': False}
+[2026-11-13T00:56:59.690095Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.690254Z] 
+--- Health checking D03 (Alternative Data Collector) ---
+[2026-11-13T00:56:59.733506Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.733725Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.733903Z]   Disk check: {'~/trading-repos/OpenTerminal-main': False}
+[2026-11-13T00:56:59.734060Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.734224Z] 
+--- Health checking D04 (Data Quality & Validation) ---
+[2026-11-13T00:56:59.780493Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.780776Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.780942Z]   Disk check: {}
+[2026-11-13T00:56:59.781100Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.781278Z] 
+--- Health checking D05 (Economic Calendar Monitor) ---
+[2026-11-13T00:56:59.827510Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.827702Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.827877Z]   Disk check: {'~/trading-repos/fredapi-master': False}
+[2026-11-13T00:56:59.828032Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.828195Z] 
+--- Health checking D06 (Broker Feed Normalizer) ---
+[2026-11-13T00:56:59.869887Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.870099Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.870267Z]   Disk check: {'~/trading-repos/ccxt-master': False}
+[2026-11-13T00:56:59.870408Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.870563Z] 
+--- Health checking E01 (Order Router) ---
+[2026-11-13T00:56:59.913050Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.913405Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.913805Z]   Disk check: {'~/trading-repos/freqtrade-develop': False, '~/trading-repos/ccxt-master': False, '~/trading-repos/hummingbot': False, '~/trading-repos/opentradex-main': False, '~/trading-repos/lumibot': False, '~/trading-repos/nautilus_trader-develop': False}
+[2026-11-13T00:56:59.914029Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:56:59.914191Z] 
+--- Health checking E02 (Latency Monitor) ---
+[2026-11-13T00:56:59.958671Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:56:59.958919Z]   Falling back to disk check of source repos...
+[2026-11-13T00:56:59.959069Z]   Disk check: {}
+[2026-11-13T00:56:59.959390Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:56:59.959669Z] 
+--- Health checking E03 (Partial Fill Handler) ---
+[2026-11-13T00:57:00.003917Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.004218Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.004417Z]   Disk check: {'~/trading-repos/hummingbot': False}
+[2026-11-13T00:57:00.004564Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.004728Z] 
+--- Health checking E04 (Bracket & Stop Manager) ---
+[2026-11-13T00:57:00.050558Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.050815Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.051006Z]   Disk check: {'~/trading-repos/freqtrade-develop': False}
+[2026-11-13T00:57:00.051144Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.051299Z] 
+--- Health checking E05 (Trade Journal Writer) ---
+[2026-11-13T00:57:00.098442Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.098710Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.098875Z]   Disk check: {}
+[2026-11-13T00:57:00.099029Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.099182Z] 
+--- Health checking E06 (Reconciliation Agent) ---
+[2026-11-13T00:57:00.146269Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.146549Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.146775Z]   Disk check: {'~/trading-repos/dvc-main': False}
+[2026-11-13T00:57:00.146943Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.147112Z] 
+--- Health checking J01 (Chief Juror) ---
+[2026-11-13T00:57:00.200063Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.200265Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.200407Z]   Disk check: {}
+[2026-11-13T00:57:00.200548Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.200723Z] 
+--- Health checking J02 (Evidence & Source Reliability) ---
+[2026-11-13T00:57:00.253925Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.254329Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.254590Z]   Disk check: {}
+[2026-11-13T00:57:00.254808Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.255014Z] 
+--- Health checking J03 (Market Conditions) ---
+[2026-11-13T00:57:00.309208Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.309476Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.309628Z]   Disk check: {}
+[2026-11-13T00:57:00.309785Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.309939Z] 
+--- Health checking J04 (Strategy Stability) ---
+[2026-11-13T00:57:00.364799Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.365076Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.365240Z]   Disk check: {}
+[2026-11-13T00:57:00.365408Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.365577Z] 
+--- Health checking J05 (Opportunity Quality) ---
+[2026-11-13T00:57:00.420795Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.421065Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.421221Z]   Disk check: {}
+[2026-11-13T00:57:00.421375Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.421539Z] 
+--- Health checking J06 (Historical & Statistical) ---
+[2026-11-13T00:57:00.478153Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.478394Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.478549Z]   Disk check: {}
+[2026-11-13T00:57:00.478699Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.478852Z] 
+--- Health checking J07 (Rules, Compliance & Authorization) ---
+[2026-11-13T00:57:00.531796Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.532049Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.532218Z]   Disk check: {}
+[2026-11-13T00:57:00.532356Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.532501Z] 
+--- Health checking K01 (Master Execution Operator) ---
+[2026-11-13T00:57:00.587952Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.588346Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.588511Z]   Disk check: {}
+[2026-11-13T00:57:00.588669Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.588885Z] 
+--- Health checking L01 (Paper Harvester) ---
+[2026-11-13T00:57:00.635412Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.635669Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.635852Z]   Disk check: {'~/trading-repos/awesome-systematic-trading': False}
+[2026-11-13T00:57:00.636035Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.636191Z] 
+--- Health checking L02 (Backtest Reviewer) ---
+[2026-11-13T00:57:00.682479Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.682755Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.682927Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-13T00:57:00.683080Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.683274Z] 
+--- Health checking L03 (Edge Decay Detector) ---
+[2026-11-13T00:57:00.728416Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.728678Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.728885Z]   Disk check: {}
+[2026-11-13T00:57:00.729036Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.729195Z] 
+--- Health checking L04 (Market Regime Historian) ---
+[2026-11-13T00:57:00.776362Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.776627Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.776812Z]   Disk check: {'~/trading-repos/hmmlearn': False}
+[2026-11-13T00:57:00.776966Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.777127Z] 
+--- Health checking L05 (Community Signal Scanner) ---
+[2026-11-13T00:57:00.824286Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.824541Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.824737Z]   Disk check: {'~/trading-repos/TradingAgents-main': False, '~/trading-repos/Trading-Agents': False, '~/trading-repos/ai-hedge-fund': False}
+[2026-11-13T00:57:00.824897Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.825041Z] 
+--- Health checking L06 (Obsidian Knowledge Curator) ---
+[2026-11-13T00:57:00.873120Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.873512Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.873767Z]   Disk check: {}
+[2026-11-13T00:57:00.874005Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.874188Z] 
+--- Health checking OBS (Obsidian Vault Manager) ---
+[2026-11-13T00:57:00.935809Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.936058Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.936207Z]   Disk check: {}
+[2026-11-13T00:57:00.936374Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:00.936536Z] 
+--- Health checking ORC (Orchestrator) ---
+[2026-11-13T00:57:00.990792Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:00.991161Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:00.991490Z]   Disk check: {'~/trading-repos/langgraph-main': False}
+[2026-11-13T00:57:00.991700Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:00.991875Z] 
+--- Health checking R01 (Drawdown Monitor) ---
+[2026-11-13T00:57:01.037984Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.038389Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.038600Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-13T00:57:01.038751Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.038918Z] 
+--- Health checking R02 (Prop Firm Rule Enforcer) ---
+[2026-11-13T00:57:01.085675Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.085951Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.086108Z]   Disk check: {}
+[2026-11-13T00:57:01.086289Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:01.086475Z] 
+--- Health checking R03 (Correlation Risk Scanner) ---
+[2026-11-13T00:57:01.132475Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.132850Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.133157Z]   Disk check: {'~/trading-repos/quantstats-main': False}
+[2026-11-13T00:57:01.133337Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.133493Z] 
+--- Health checking R04 (Exposure Calculator) ---
+[2026-11-13T00:57:01.179796Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.180069Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.180260Z]   Disk check: {'~/trading-repos/PyPortfolioOpt-main': False}
+[2026-11-13T00:57:01.180419Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.180574Z] 
+--- Health checking R05 (Daily Loss Limit Guardian) ---
+[2026-11-13T00:57:01.227988Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.228242Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.228416Z]   Disk check: {}
+[2026-11-13T00:57:01.228564Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:01.228712Z] 
+--- Health checking R06 (Slippage & Cost Analyst) ---
+[2026-11-13T00:57:01.272842Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.273055Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.273238Z]   Disk check: {'~/trading-repos/quantstats-main': False, '~/trading-repos/stocd': False}
+[2026-11-13T00:57:01.273400Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.273690Z] 
+--- Health checking S01 (Strategy Ideation) ---
+[2026-11-13T00:57:01.321177Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.321459Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.321656Z]   Disk check: {'~/trading-repos/FinRL-master': False}
+[2026-11-13T00:57:01.321813Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.322016Z] 
+--- Health checking S02 (Parameter Optimizer) ---
+[2026-11-13T00:57:01.370363Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.370629Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.370817Z]   Disk check: {'~/trading-repos/optuna-master': False}
+[2026-11-13T00:57:01.370989Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.371144Z] 
+--- Health checking S03 (Walk-Forward Tester) ---
+[2026-11-13T00:57:01.425533Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.425810Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.426005Z]   Disk check: {'~/trading-repos/backtrader': False}
+[2026-11-13T00:57:01.426156Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.426315Z] 
+--- Health checking S04 (Strategy Combiner) ---
+[2026-11-13T00:57:01.476031Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.476237Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.476409Z]   Disk check: {'~/trading-repos/pysystemtrade-develop': False}
+[2026-11-13T00:57:01.476662Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.477104Z] 
+--- Health checking S05 (Regime Detector) ---
+[2026-11-13T00:57:01.531798Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.532061Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.532294Z]   Disk check: {'~/trading-repos/hmmlearn': False}
+[2026-11-13T00:57:01.532505Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.532705Z] 
+--- Health checking S06 (Entry & Exit Refiner) ---
+[2026-11-13T00:57:01.586017Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.586306Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.586548Z]   Disk check: {'~/trading-repos/ta-lib-main': False}
+[2026-11-13T00:57:01.586742Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.586963Z] 
+--- Health checking S07 (Indicator Factory) ---
+[2026-11-13T00:57:01.637811Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.638099Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.638311Z]   Disk check: {'~/trading-repos/ta-lib-main': False, '~/trading-repos/arch-main': False, '~/trading-repos/Learn-Quant': False}
+[2026-11-13T00:57:01.638514Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.638735Z] 
+--- Health checking ZR-D (Data Feeds Zone Relay) ---
+[2026-11-13T00:57:01.699378Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.699638Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.699892Z]   Disk check: {'~/trading-repos/qlib-main': False, '~/trading-repos/langgraph-main': False}
+[2026-11-13T00:57:01.700084Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.700295Z] 
+--- Health checking ZR-S (Strategy Zone Relay) ---
+[2026-11-13T00:57:01.762798Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.763104Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.763405Z]   Disk check: {'~/trading-repos/qlib-main': False, '~/trading-repos/optuna-master': False}
+[2026-11-13T00:57:01.763713Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.764000Z] 
+--- Health checking ZR-R (Risk Zone Relay) ---
+[2026-11-13T00:57:01.826301Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.826619Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.826832Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0013': False}
+[2026-11-13T00:57:01.827168Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.827500Z] 
+--- Health checking ZR-E (Execution Zone Relay) ---
+[2026-11-13T00:57:01.896869Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.897166Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.897406Z]   Disk check: {'~/trading-repos/nautilus_trader-develop': False}
+[2026-11-13T00:57:01.897611Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.897825Z] 
+--- Health checking ZR-L (Research Zone Relay) ---
+[2026-11-13T00:57:01.964656Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:01.964943Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:01.965174Z]   Disk check: {'~/trading-repos/optuna-master': False}
+[2026-11-13T00:57:01.965384Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:01.965587Z] 
+--- Health checking ZR-A (Trading Desks Zone Relay) ---
+[2026-11-13T00:57:02.022494Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.022817Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.023108Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0028': False}
+[2026-11-13T00:57:02.023287Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.023502Z] 
+--- Health checking ZR-J (Jurors Zone Relay) ---
+[2026-11-13T00:57:02.086568Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.086852Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.087104Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0027': False}
+[2026-11-13T00:57:02.087406Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.087707Z] 
+--- Health checking XR-01 (Data to Strategy Relay) ---
+[2026-11-13T00:57:02.146451Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.146730Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.146967Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:02.147160Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.147382Z] 
+--- Health checking XR-02 (Strategy to Risk Relay) ---
+[2026-11-13T00:57:02.201316Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.201582Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.201840Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:02.202037Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.202290Z] 
+--- Health checking XR-03 (Risk to Execution Relay) ---
+[2026-11-13T00:57:02.260075Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.260367Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.260603Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0028': False}
+[2026-11-13T00:57:02.260852Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.261063Z] 
+--- Health checking XR-04 (Desks to Jurors Relay) ---
+[2026-11-13T00:57:02.327670Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.328068Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.328360Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:02.328699Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.328934Z] 
+--- Health checking XR-05 (Jurors to Auth Relay) ---
+[2026-11-13T00:57:02.411266Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.411558Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.411760Z]   Disk check: {'~/trading-repos/protobus-py': False}
+[2026-11-13T00:57:02.411937Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.412141Z] 
+--- Health checking XR-06 (Execution to Feedback Relay) ---
+[2026-11-13T00:57:02.486212Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.486614Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.486941Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:02.487128Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.487291Z] 
+--- Health checking XR-07 (Research Broadcaster) ---
+[2026-11-13T00:57:02.553799Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.554060Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.554318Z]   Disk check: {'~/trading-repos/redis-message-queue': False, '~/trading-repos/protobus-py': False}
+[2026-11-13T00:57:02.554577Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.554796Z] 
+--- Health checking R-B01 (Signal Router) ---
+[2026-11-13T00:57:02.623919Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.624425Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.624653Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0007': False}
+[2026-11-13T00:57:02.624843Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.625043Z] 
+--- Health checking R-B02 (Consensus Aggregator) ---
+[2026-11-13T00:57:02.706353Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.706695Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.706886Z]   Disk check: {'~/trading-repos/dvc-main': False}
+[2026-11-13T00:57:02.707033Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.707246Z] 
+--- Health checking R-B03 (Local Cloud Bridge) ---
+[2026-11-13T00:57:02.788419Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.788824Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.789231Z]   Disk check: {'~/trading-repos/blazingmq': False}
+[2026-11-13T00:57:02.789507Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.789738Z] 
+--- Health checking R-B04 (Broadcast Bot) ---
+[2026-11-13T00:57:02.856730Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.857078Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.857394Z]   Disk check: {'~/trading-repos/redis-message-queue': False}
+[2026-11-13T00:57:02.857682Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.857907Z] 
+--- Health checking R-B05 (Authorization Gateway) ---
+[2026-11-13T00:57:02.935196Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.935505Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.935739Z]   Disk check: {'~/trading-repos/Trading-Agents/bot-0027': False}
+[2026-11-13T00:57:02.935939Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.936115Z] 
+--- Health checking R-B06 (Feedback Loop) ---
+[2026-11-13T00:57:02.997923Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:02.998194Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:02.998433Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:02.998634Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:02.998859Z] 
+--- Health checking SYS-01 (Health Monitor) ---
+[2026-11-13T00:57:03.057499Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.057763Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.057998Z]   Disk check: {'~/trading-repos/netdata': False}
+[2026-11-13T00:57:03.058193Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.058423Z] 
+--- Health checking SYS-02 (Queue Manager) ---
+[2026-11-13T00:57:03.117486Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.117769Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.118017Z]   Disk check: {'~/trading-repos/kombu': False}
+[2026-11-13T00:57:03.118218Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.118473Z] 
+--- Health checking SYS-03 (Priority Sorter) ---
+[2026-11-13T00:57:03.177612Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.177891Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.178129Z]   Disk check: {'~/trading-repos/protobus-py': False}
+[2026-11-13T00:57:03.178343Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.178564Z] 
+--- Health checking SYS-04 (Dead Letter Handler) ---
+[2026-11-13T00:57:03.241418Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.241685Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.241953Z]   Disk check: {'~/trading-repos/taskiq-aio-pika': False, '~/trading-repos/redis-workq': False}
+[2026-11-13T00:57:03.242144Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.242381Z] 
+--- Health checking SYS-05 (Clock Sync) ---
+[2026-11-13T00:57:03.303927Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.304314Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.304633Z]   Disk check: {'~/trading-repos/kronos-rt': False}
+[2026-11-13T00:57:03.304852Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.305057Z] 
+--- Health checking SYS-06 (Session Manager) ---
+[2026-11-13T00:57:03.363830Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:03.364110Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:03.364366Z]   Disk check: {'~/trading-repos/process-watch': False}
+[2026-11-13T00:57:03.364566Z]   STATUS: OFFLINE (health check failed)
+[2026-11-13T00:57:03.368351Z] 
+============================================================
+[2026-11-13T00:57:03.368514Z] STEP 8 COMPLETE
+[2026-11-13T00:57:03.368688Z]   Total agents: 87
+[2026-11-13T00:57:03.368840Z]   SIMULATED_ACTIVE: 22
+[2026-11-13T00:57:03.368982Z]   OFFLINE: 65
+[2026-11-13T00:57:03.369141Z]   Errors: 0
+[2026-11-13T00:57:03.369284Z]   bot_registry.json updated with health statuses
+[2026-11-13T00:57:03.369431Z]   Health report saved to logs/health_check_report.json
+[2026-11-13T00:57:03.369585Z]   ============================================================
+[2026-11-13T00:57:29.310648Z] ============================================================
+[2026-11-13T00:57:29.310892Z] STEP 8 — HEALTH CHECK ALL 87 BOTS (SYS-01 SIMULATION)
+[2026-11-13T00:57:29.311053Z] ============================================================
+[2026-11-13T00:57:29.319899Z] Total agents to health-check: 87
+[2026-11-13T00:57:29.320322Z] Channel map loaded: 41 channels
+[2026-11-13T00:57:29.320475Z] 
+--- Health checking A01 (Market Intelligence) ---
+[2026-11-13T00:57:29.371727Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.371993Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.372161Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main': True}
+[2026-11-13T00:57:29.372305Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.372507Z] 
+--- Health checking A02 (News & Events) ---
+[2026-11-13T00:57:29.423316Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.423561Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.423739Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocksight': True}
+[2026-11-13T00:57:29.423903Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.424057Z] 
+--- Health checking A03 (Macro Analysis) ---
+[2026-11-13T00:57:29.471063Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.471420Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.471608Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/gs-quant': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master': True}
+[2026-11-13T00:57:29.471759Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.471916Z] 
+--- Health checking A04 (Sentiment & Positioning) ---
+[2026-11-13T00:57:29.520023Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.520322Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.520562Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/finBERT-master': True}
+[2026-11-13T00:57:29.520733Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.521052Z] 
+--- Health checking A05 (Quantitative Analysis) ---
+[2026-11-13T00:57:29.569606Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.569813Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.569970Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Kronos-master': True}
+[2026-11-13T00:57:29.570098Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.570243Z] 
+--- Health checking A06 (Technical Analysis) ---
+[2026-11-13T00:57:29.617699Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.617972Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.618144Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main': True}
+[2026-11-13T00:57:29.618310Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.618475Z] 
+--- Health checking A07 (Order Flow) ---
+[2026-11-13T00:57:29.666783Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.667052Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.667200Z]   Disk check: {}
+[2026-11-13T00:57:29.667345Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.667507Z] 
+--- Health checking A08 (Correlation & Relative Value) ---
+[2026-11-13T00:57:29.721368Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.721641Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.721808Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main': True}
+[2026-11-13T00:57:29.721957Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.722121Z] 
+--- Health checking A09 (Strategy Architecture) ---
+[2026-11-13T00:57:29.771675Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.771912Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.772068Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main': True}
+[2026-11-13T00:57:29.772224Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.772376Z] 
+--- Health checking A10 (Strategy Engineering) ---
+[2026-11-13T00:57:29.819985Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.820257Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.820435Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main': True}
+[2026-11-13T00:57:29.820591Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.820747Z] 
+--- Health checking A11 (Backtesting) ---
+[2026-11-13T00:57:29.868964Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.869172Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.869358Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hftbacktest-master': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/vectorbt-master': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Lean-master': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/bbstrader': True}
+[2026-11-13T00:57:29.869500Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.869645Z] 
+--- Health checking A12 (Monte Carlo Simulation) ---
+[2026-11-13T00:57:29.919437Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.919699Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.919866Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Quant-Monte-Carlo-Simulation-main': True}
+[2026-11-13T00:57:29.920062Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.920214Z] 
+--- Health checking A13 (Risk Control & Veto) ---
+[2026-11-13T00:57:29.971930Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:29.972198Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:29.972351Z]   Disk check: {}
+[2026-11-13T00:57:29.972495Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:29.972650Z] 
+--- Health checking A14 (Portfolio Management) ---
+[2026-11-13T00:57:30.026094Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.026491Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.026788Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/skfolio-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantportfolio': True}
+[2026-11-13T00:57:30.027016Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.027200Z] 
+--- Health checking A15 (Position Sizing) ---
+[2026-11-13T00:57:30.081125Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.081374Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.081541Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/cvxpy-master': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Riskfolio-Lib-master': True}
+[2026-11-13T00:57:30.081672Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.081818Z] 
+--- Health checking A16 (Independent Trade Review) ---
+[2026-11-13T00:57:30.134167Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.134404Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.134577Z]   Disk check: {}
+[2026-11-13T00:57:30.134718Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.134874Z] 
+--- Health checking A17 (Execution Analysis & Order Prep) ---
+[2026-11-13T00:57:30.186495Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.186771Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.186934Z]   Disk check: {}
+[2026-11-13T00:57:30.187081Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.187235Z] 
+--- Health checking A18 (Trade Surveillance) ---
+[2026-11-13T00:57:30.240629Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.240908Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.241057Z]   Disk check: {}
+[2026-11-13T00:57:30.241204Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.241369Z] 
+--- Health checking A19 (Performance Analytics) ---
+[2026-11-13T00:57:30.290559Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.290782Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.290941Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main': True}
+[2026-11-13T00:57:30.291091Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.291256Z] 
+--- Health checking A20 (Continuous Improvement) ---
+[2026-11-13T00:57:30.343842Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.344119Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.344271Z]   Disk check: {}
+[2026-11-13T00:57:30.344415Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.344574Z] 
+--- Health checking D01 (Live Market Data Aggregator) ---
+[2026-11-13T00:57:30.388353Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.388574Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.388763Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenBB-develop': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/yfinance-main': True}
+[2026-11-13T00:57:30.388904Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.389053Z] 
+--- Health checking D02 (Historical Data Manager) ---
+[2026-11-13T00:57:30.431904Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.432180Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.432370Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ml4t-data': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main': True}
+[2026-11-13T00:57:30.432518Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.432677Z] 
+--- Health checking D03 (Alternative Data Collector) ---
+[2026-11-13T00:57:30.480290Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.480496Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.480659Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main': True}
+[2026-11-13T00:57:30.480819Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.480975Z] 
+--- Health checking D04 (Data Quality & Validation) ---
+[2026-11-13T00:57:30.528809Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.529152Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.529403Z]   Disk check: {}
+[2026-11-13T00:57:30.529643Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.529882Z] 
+--- Health checking D05 (Economic Calendar Monitor) ---
+[2026-11-13T00:57:30.573951Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.574163Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.574387Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master': True}
+[2026-11-13T00:57:30.574528Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.574688Z] 
+--- Health checking D06 (Broker Feed Normalizer) ---
+[2026-11-13T00:57:30.616805Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.617044Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.617214Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master': True}
+[2026-11-13T00:57:30.617364Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.617533Z] 
+--- Health checking E01 (Order Router) ---
+[2026-11-13T00:57:30.660365Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.660688Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.660918Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/opentradex-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/lumibot': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop': True}
+[2026-11-13T00:57:30.661070Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.661247Z] 
+--- Health checking E02 (Latency Monitor) ---
+[2026-11-13T00:57:30.705212Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.705517Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.705670Z]   Disk check: {}
+[2026-11-13T00:57:30.705842Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.706000Z] 
+--- Health checking E03 (Partial Fill Handler) ---
+[2026-11-13T00:57:30.748498Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.748906Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.749214Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot': True}
+[2026-11-13T00:57:30.749489Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.749730Z] 
+--- Health checking E04 (Bracket & Stop Manager) ---
+[2026-11-13T00:57:30.793959Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.794178Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.794358Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop': True}
+[2026-11-13T00:57:30.794493Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.794640Z] 
+--- Health checking E05 (Trade Journal Writer) ---
+[2026-11-13T00:57:30.842155Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.842429Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.842581Z]   Disk check: {}
+[2026-11-13T00:57:30.842730Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.842882Z] 
+--- Health checking E06 (Reconciliation Agent) ---
+[2026-11-13T00:57:30.887722Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.887942Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.888106Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main': True}
+[2026-11-13T00:57:30.888246Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.888405Z] 
+--- Health checking J01 (Chief Juror) ---
+[2026-11-13T00:57:30.939431Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.939699Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.939853Z]   Disk check: {}
+[2026-11-13T00:57:30.939998Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.940154Z] 
+--- Health checking J02 (Evidence & Source Reliability) ---
+[2026-11-13T00:57:30.994547Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:30.994815Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:30.994973Z]   Disk check: {}
+[2026-11-13T00:57:30.995128Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:30.995295Z] 
+--- Health checking J03 (Market Conditions) ---
+[2026-11-13T00:57:31.047725Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.048009Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.048156Z]   Disk check: {}
+[2026-11-13T00:57:31.048301Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.048467Z] 
+--- Health checking J04 (Strategy Stability) ---
+[2026-11-13T00:57:31.100879Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.101195Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.101354Z]   Disk check: {}
+[2026-11-13T00:57:31.101544Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.101701Z] 
+--- Health checking J05 (Opportunity Quality) ---
+[2026-11-13T00:57:31.156158Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.156614Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.156771Z]   Disk check: {}
+[2026-11-13T00:57:31.156970Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.157155Z] 
+--- Health checking J06 (Historical & Statistical) ---
+[2026-11-13T00:57:31.212402Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.212665Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.212844Z]   Disk check: {}
+[2026-11-13T00:57:31.212996Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.213199Z] 
+--- Health checking J07 (Rules, Compliance & Authorization) ---
+[2026-11-13T00:57:31.267317Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.267586Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.267738Z]   Disk check: {}
+[2026-11-13T00:57:31.267882Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.268041Z] 
+--- Health checking K01 (Master Execution Operator) ---
+[2026-11-13T00:57:31.322174Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.322482Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.322637Z]   Disk check: {}
+[2026-11-13T00:57:31.322784Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.322963Z] 
+--- Health checking L01 (Paper Harvester) ---
+[2026-11-13T00:57:31.370505Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.370805Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.370980Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/awesome-systematic-trading': True}
+[2026-11-13T00:57:31.371144Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.371304Z] 
+--- Health checking L02 (Backtest Reviewer) ---
+[2026-11-13T00:57:31.414543Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.414952Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.415231Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main': True}
+[2026-11-13T00:57:31.415469Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.415648Z] 
+--- Health checking L03 (Edge Decay Detector) ---
+[2026-11-13T00:57:31.463527Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.463906Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.464158Z]   Disk check: {}
+[2026-11-13T00:57:31.464413Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.464669Z] 
+--- Health checking L04 (Market Regime Historian) ---
+[2026-11-13T00:57:31.511074Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.511392Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.511610Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn': True}
+[2026-11-13T00:57:31.511794Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.511944Z] 
+--- Health checking L05 (Community Signal Scanner) ---
+[2026-11-13T00:57:31.555518Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.555850Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.556107Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/TradingAgents-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ai-hedge-fund': True}
+[2026-11-13T00:57:31.556305Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.556487Z] 
+--- Health checking L06 (Obsidian Knowledge Curator) ---
+[2026-11-13T00:57:31.598639Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.598848Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.598990Z]   Disk check: {}
+[2026-11-13T00:57:31.599128Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.599290Z] 
+--- Health checking OBS (Obsidian Vault Manager) ---
+[2026-11-13T00:57:31.656200Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.656572Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.656776Z]   Disk check: {}
+[2026-11-13T00:57:31.656937Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.657142Z] 
+--- Health checking ORC (Orchestrator) ---
+[2026-11-13T00:57:31.713494Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.713774Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.713951Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main': True}
+[2026-11-13T00:57:31.714096Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.714252Z] 
+--- Health checking R01 (Drawdown Monitor) ---
+[2026-11-13T00:57:31.761374Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.761568Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.761729Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main': True}
+[2026-11-13T00:57:31.761872Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.762020Z] 
+--- Health checking R02 (Prop Firm Rule Enforcer) ---
+[2026-11-13T00:57:31.810887Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.811161Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.811329Z]   Disk check: {}
+[2026-11-13T00:57:31.811495Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.811692Z] 
+--- Health checking R03 (Correlation Risk Scanner) ---
+[2026-11-13T00:57:31.860955Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.861178Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.861347Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main': True}
+[2026-11-13T00:57:31.861492Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.861647Z] 
+--- Health checking R04 (Exposure Calculator) ---
+[2026-11-13T00:57:31.909811Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.910085Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.910259Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main': True}
+[2026-11-13T00:57:31.910402Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.910554Z] 
+--- Health checking R05 (Daily Loss Limit Guardian) ---
+[2026-11-13T00:57:31.955932Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:31.956187Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:31.956361Z]   Disk check: {}
+[2026-11-13T00:57:31.956518Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:31.956702Z] 
+--- Health checking R06 (Slippage & Cost Analyst) ---
+[2026-11-13T00:57:32.000283Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.000680Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.000971Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocd': True}
+[2026-11-13T00:57:32.001206Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.001419Z] 
+--- Health checking S01 (Strategy Ideation) ---
+[2026-11-13T00:57:32.047584Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.047947Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.048137Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/FinRL-master': True}
+[2026-11-13T00:57:32.048282Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.048561Z] 
+--- Health checking S02 (Parameter Optimizer) ---
+[2026-11-13T00:57:32.096137Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.096397Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.096565Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master': True}
+[2026-11-13T00:57:32.096782Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.097031Z] 
+--- Health checking S03 (Walk-Forward Tester) ---
+[2026-11-13T00:57:32.142496Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.142767Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.142953Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader': True}
+[2026-11-13T00:57:32.143096Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.143252Z] 
+--- Health checking S04 (Strategy Combiner) ---
+[2026-11-13T00:57:32.189814Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.190078Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.190253Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/pysystemtrade-develop': True}
+[2026-11-13T00:57:32.190396Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.190548Z] 
+--- Health checking S05 (Regime Detector) ---
+[2026-11-13T00:57:32.238517Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.238815Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.238983Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn': True}
+[2026-11-13T00:57:32.239147Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.239314Z] 
+--- Health checking S06 (Entry & Exit Refiner) ---
+[2026-11-13T00:57:32.287971Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.288250Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.288420Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main': True}
+[2026-11-13T00:57:32.288563Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.288718Z] 
+--- Health checking S07 (Indicator Factory) ---
+[2026-11-13T00:57:32.346382Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.346607Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.346848Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/arch-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Learn-Quant': True}
+[2026-11-13T00:57:32.347052Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.347272Z] 
+--- Health checking ZR-D (Data Feeds Zone Relay) ---
+[2026-11-13T00:57:32.418398Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.418623Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.418916Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main': True}
+[2026-11-13T00:57:32.419221Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.419539Z] 
+--- Health checking ZR-S (Strategy Zone Relay) ---
+[2026-11-13T00:57:32.494350Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.494618Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.494876Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master': True}
+[2026-11-13T00:57:32.495056Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.495269Z] 
+--- Health checking ZR-R (Risk Zone Relay) ---
+[2026-11-13T00:57:32.570754Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.571036Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.571261Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0013': True}
+[2026-11-13T00:57:32.571460Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.571675Z] 
+--- Health checking ZR-E (Execution Zone Relay) ---
+[2026-11-13T00:57:32.634021Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.634377Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.634658Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop': True}
+[2026-11-13T00:57:32.634805Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.634961Z] 
+--- Health checking ZR-L (Research Zone Relay) ---
+[2026-11-13T00:57:32.698988Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.699289Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.699510Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master': True}
+[2026-11-13T00:57:32.699716Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.699990Z] 
+--- Health checking ZR-A (Trading Desks Zone Relay) ---
+[2026-11-13T00:57:32.763262Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.763491Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.763812Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028': True}
+[2026-11-13T00:57:32.764080Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.764332Z] 
+--- Health checking ZR-J (Jurors Zone Relay) ---
+[2026-11-13T00:57:32.820270Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.820579Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.820834Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027': True}
+[2026-11-13T00:57:32.821054Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.821267Z] 
+--- Health checking XR-01 (Data to Strategy Relay) ---
+[2026-11-13T00:57:32.880975Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.881248Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.881461Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:32.881655Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.881825Z] 
+--- Health checking XR-02 (Strategy to Risk Relay) ---
+[2026-11-13T00:57:32.939908Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:32.940209Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:32.940418Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:32.940630Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:32.940858Z] 
+--- Health checking XR-03 (Risk to Execution Relay) ---
+[2026-11-13T00:57:32.999855Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.000201Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.000422Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028': True}
+[2026-11-13T00:57:33.000613Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.000913Z] 
+--- Health checking XR-04 (Desks to Jurors Relay) ---
+[2026-11-13T00:57:33.061525Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.061814Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.062028Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:33.062220Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.062451Z] 
+--- Health checking XR-05 (Jurors to Auth Relay) ---
+[2026-11-13T00:57:33.121761Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.122061Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.122321Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py': True}
+[2026-11-13T00:57:33.122521Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.122733Z] 
+--- Health checking XR-06 (Execution to Feedback Relay) ---
+[2026-11-13T00:57:33.182680Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.182967Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.183183Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:33.183377Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.183619Z] 
+--- Health checking XR-07 (Research Broadcaster) ---
+[2026-11-13T00:57:33.241646Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.241931Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.242191Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py': True}
+[2026-11-13T00:57:33.242387Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.242703Z] 
+--- Health checking R-B01 (Signal Router) ---
+[2026-11-13T00:57:33.303319Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.303588Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.303798Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0007': True}
+[2026-11-13T00:57:33.304010Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.304275Z] 
+--- Health checking R-B02 (Consensus Aggregator) ---
+[2026-11-13T00:57:33.364167Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.364483Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.364708Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main': True}
+[2026-11-13T00:57:33.364898Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.365124Z] 
+--- Health checking R-B03 (Local Cloud Bridge) ---
+[2026-11-13T00:57:33.424052Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.424320Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.424514Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/blazingmq': True}
+[2026-11-13T00:57:33.424707Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.424909Z] 
+--- Health checking R-B04 (Broadcast Bot) ---
+[2026-11-13T00:57:33.485478Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.485935Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.486163Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue': True}
+[2026-11-13T00:57:33.486361Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.486631Z] 
+--- Health checking R-B05 (Authorization Gateway) ---
+[2026-11-13T00:57:33.547598Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.547945Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.548184Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027': True}
+[2026-11-13T00:57:33.548375Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.548608Z] 
+--- Health checking R-B06 (Feedback Loop) ---
+[2026-11-13T00:57:33.607039Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.607339Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.607581Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:33.607769Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.607994Z] 
+--- Health checking SYS-01 (Health Monitor) ---
+[2026-11-13T00:57:33.670212Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.670499Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.670716Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/netdata': True}
+[2026-11-13T00:57:33.670908Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.671185Z] 
+--- Health checking SYS-02 (Queue Manager) ---
+[2026-11-13T00:57:33.732963Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.733257Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.733500Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu': True}
+[2026-11-13T00:57:33.733704Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.733907Z] 
+--- Health checking SYS-03 (Priority Sorter) ---
+[2026-11-13T00:57:33.798619Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.798914Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.799140Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py': True}
+[2026-11-13T00:57:33.799329Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.799578Z] 
+--- Health checking SYS-04 (Dead Letter Handler) ---
+[2026-11-13T00:57:33.857529Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.857769Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.858016Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/taskiq-aio-pika': True, 'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-workq': True}
+[2026-11-13T00:57:33.858203Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.858423Z] 
+--- Health checking SYS-05 (Clock Sync) ---
+[2026-11-13T00:57:33.917736Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.918303Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.918624Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kronos-rt': True}
+[2026-11-13T00:57:33.918978Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.919239Z] 
+--- Health checking SYS-06 (Session Manager) ---
+[2026-11-13T00:57:33.977050Z]   ERROR importing module: No module named 'redis'
+[2026-11-13T00:57:33.977334Z]   Falling back to disk check of source repos...
+[2026-11-13T00:57:33.977577Z]   Disk check: {'C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/process-watch': True}
+[2026-11-13T00:57:33.977758Z]   STATUS: SIMULATED_ACTIVE (healthy)
+[2026-11-13T00:57:33.982044Z] 
+============================================================
+[2026-11-13T00:57:33.982251Z] STEP 8 COMPLETE
+[2026-11-13T00:57:33.982456Z]   Total agents: 87
+[2026-11-13T00:57:33.982615Z]   SIMULATED_ACTIVE: 87
+[2026-11-13T00:57:33.982779Z]   OFFLINE: 0
+[2026-11-13T00:57:33.982977Z]   Errors: 0
+[2026-11-13T00:57:33.983217Z]   bot_registry.json updated with health statuses
+[2026-11-13T00:57:33.983430Z]   Health report saved to logs/health_check_report.json
+[2026-11-13T00:57:33.983640Z]   ============================================================

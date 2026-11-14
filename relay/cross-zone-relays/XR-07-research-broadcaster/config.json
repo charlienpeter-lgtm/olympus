@@ -1,0 +1,20 @@
+{
+  "id": "XR-07",
+  "role": "Research Broadcaster",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/elijas/redis-message-queue",
+  "additional_repos": [
+    "protobus-py"
+  ],
+  "subscribes_to": [
+    "research.findings"
+  ],
+  "publishes_to": [
+    "broadcast.system"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

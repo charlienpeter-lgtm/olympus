@@ -1,0 +1,19 @@
+{
+  "id": "XR-05",
+  "role": "Jurors to Auth Relay",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/ArielLaub/protobus-py",
+  "additional_repos": [],
+  "subscribes_to": [
+    "juror.verdict",
+    "authorization.decision"
+  ],
+  "publishes_to": [
+    "execution.auth"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

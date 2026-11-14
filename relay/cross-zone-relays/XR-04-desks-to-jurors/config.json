@@ -1,0 +1,19 @@
+{
+  "id": "XR-04",
+  "role": "Desks to Jurors Relay",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/celery/kombu",
+  "additional_repos": [],
+  "subscribes_to": [
+    "desk.analysis",
+    "trade.recommendations"
+  ],
+  "publishes_to": [
+    "juror.review"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

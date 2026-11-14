@@ -1,0 +1,2063 @@
+{
+  "generated": "2026-11-12",
+  "total_agents": 87,
+  "agents": [
+    {
+      "id": "A01",
+      "role": "Market Intelligence",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ErTasselli/OpenTerminal",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.372498Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main": true
+        }
+      }
+    },
+    {
+      "id": "A02",
+      "role": "News & Events",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/shirosaidev/stocksight",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocksight"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.424049Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocksight": true
+        }
+      }
+    },
+    {
+      "id": "A03",
+      "role": "Macro Analysis",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/goldmansachs/gs-quant",
+      "additional_repos": [
+        "fredapi-master"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/gs-quant",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.471908Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/gs-quant": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master": true
+        }
+      }
+    },
+    {
+      "id": "A04",
+      "role": "Sentiment & Positioning",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/finBERT-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.521039Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/finBERT-master": true
+        }
+      }
+    },
+    {
+      "id": "A05",
+      "role": "Quantitative Analysis",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Kronos-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.570236Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Kronos-master": true
+        }
+      }
+    },
+    {
+      "id": "A06",
+      "role": "Technical Analysis",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TA-Lib/ta-lib",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.618466Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true
+        }
+      }
+    },
+    {
+      "id": "A07",
+      "role": "Order Flow",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.667499Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "A08",
+      "role": "Correlation & Relative Value",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/pyportfolio/pyportfolioopt",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.722113Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true
+        }
+      }
+    },
+    {
+      "id": "A09",
+      "role": "Strategy Architecture",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/microsoft/qlib",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.772369Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true
+        }
+      }
+    },
+    {
+      "id": "A10",
+      "role": "Strategy Engineering",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/langchain-ai/langgraph",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.820739Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      }
+    },
+    {
+      "id": "A11",
+      "role": "Backtesting",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/mementum/backtrader",
+      "additional_repos": [
+        "hftbacktest-master",
+        "vectorbt-master",
+        "Lean-master",
+        "https://github.com/bbalouki/bbstrader"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hftbacktest-master",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/vectorbt-master",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Lean-master",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/bbstrader"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.869639Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hftbacktest-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/vectorbt-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Lean-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/bbstrader": true
+        }
+      }
+    },
+    {
+      "id": "A12",
+      "role": "Monte Carlo Simulation",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Quant-Monte-Carlo-Simulation-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.920207Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Quant-Monte-Carlo-Simulation-main": true
+        }
+      }
+    },
+    {
+      "id": "A13",
+      "role": "Risk Control & Veto",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:29.972642Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "A14",
+      "role": "Portfolio Management",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/pyportfolio/pyportfolioopt",
+      "additional_repos": [
+        "skfolio-main",
+        "quantportfolio"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/skfolio-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantportfolio"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.027191Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/skfolio-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantportfolio": true
+        }
+      }
+    },
+    {
+      "id": "A15",
+      "role": "Position Sizing",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/cvxpy/cvxpy",
+      "additional_repos": [
+        "Riskfolio-Lib-master"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/cvxpy-master",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Riskfolio-Lib-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.081811Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/cvxpy-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Riskfolio-Lib-master": true
+        }
+      }
+    },
+    {
+      "id": "A16",
+      "role": "Independent Trade Review",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.134867Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "A17",
+      "role": "Execution Analysis & Order Prep",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.187227Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "A18",
+      "role": "Trade Surveillance",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.241360Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "A19",
+      "role": "Performance Analytics",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ranaroussi/quantstats",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.291249Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      }
+    },
+    {
+      "id": "A20",
+      "role": "Continuous Improvement",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.344566Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "D01",
+      "role": "Live Market Data Aggregator",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/OpenBB-finance/OpenBB",
+      "additional_repos": [
+        "yfinance-main"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenBB-develop",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/yfinance-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.389046Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenBB-develop": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/yfinance-main": true
+        }
+      }
+    },
+    {
+      "id": "D02",
+      "role": "Historical Data Manager",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ml4t/ml4t-data",
+      "additional_repos": [
+        "dvc-main"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ml4t-data",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.432667Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ml4t-data": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      }
+    },
+    {
+      "id": "D03",
+      "role": "Alternative Data Collector",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ErTasselli/OpenTerminal",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.480968Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main": true
+        }
+      }
+    },
+    {
+      "id": "D04",
+      "role": "Data Quality & Validation",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.529871Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "D05",
+      "role": "Economic Calendar Monitor",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/mortada/fredapi",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.574681Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master": true
+        }
+      }
+    },
+    {
+      "id": "D06",
+      "role": "Broker Feed Normalizer",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ccxt/ccxt",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.617526Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master": true
+        }
+      }
+    },
+    {
+      "id": "E01",
+      "role": "Order Router",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/freqtrade/freqtrade",
+      "additional_repos": [
+        "ccxt-master",
+        "hummingbot",
+        "OpenTradex-main",
+        "https://github.com/lumiwealth/lumibot",
+        "https://github.com/nautechsystems/nautilus_trader"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/opentradex-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/lumibot",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.661238Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/opentradex-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/lumibot": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop": true
+        }
+      }
+    },
+    {
+      "id": "E02",
+      "role": "Latency Monitor",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.705992Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "E03",
+      "role": "Partial Fill Handler",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/hummingbot/hummingbot",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.749720Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot": true
+        }
+      }
+    },
+    {
+      "id": "E04",
+      "role": "Bracket & Stop Manager",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/freqtrade/freqtrade",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.794634Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop": true
+        }
+      }
+    },
+    {
+      "id": "E05",
+      "role": "Trade Journal Writer",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.842873Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "E06",
+      "role": "Reconciliation Agent",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/iterative/dvc",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.888399Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      }
+    },
+    {
+      "id": "J01",
+      "role": "Chief Juror",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.940145Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J02",
+      "role": "Evidence & Source Reliability",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:30.995282Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J03",
+      "role": "Market Conditions",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.048461Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J04",
+      "role": "Strategy Stability",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.101692Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J05",
+      "role": "Opportunity Quality",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.157144Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J06",
+      "role": "Historical & Statistical",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.213191Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "J07",
+      "role": "Rules, Compliance & Authorization",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.268032Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "K01",
+      "role": "Master Execution Operator",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.322953Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "L01",
+      "role": "Paper Harvester",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/awesome-systematic-trading"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.371295Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/awesome-systematic-trading": true
+        }
+      }
+    },
+    {
+      "id": "L02",
+      "role": "Backtest Reviewer",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ranaroussi/quantstats",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.415640Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      }
+    },
+    {
+      "id": "L03",
+      "role": "Edge Decay Detector",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.464654Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "L04",
+      "role": "Market Regime Historian",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/hmmlearn/hmmlearn",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.511937Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn": true
+        }
+      }
+    },
+    {
+      "id": "L05",
+      "role": "Community Signal Scanner",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [
+        "Trading-Agents",
+        "https://github.com/virattt/ai-hedge-fund"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/TradingAgents-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ai-hedge-fund"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.556480Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/TradingAgents-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ai-hedge-fund": true
+        }
+      }
+    },
+    {
+      "id": "L06",
+      "role": "Obsidian Knowledge Curator",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.599281Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "OBS",
+      "role": "Obsidian Vault Manager",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.657120Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "ORC",
+      "role": "Orchestrator",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/langchain-ai/langgraph",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.714244Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      }
+    },
+    {
+      "id": "R01",
+      "role": "Drawdown Monitor",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ranaroussi/quantstats",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.762013Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      }
+    },
+    {
+      "id": "R02",
+      "role": "Prop Firm Rule Enforcer",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.811684Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "R03",
+      "role": "Correlation Risk Scanner",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ranaroussi/quantstats",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.861638Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      }
+    },
+    {
+      "id": "R04",
+      "role": "Exposure Calculator",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/pyportfolio/pyportfolioopt",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.910545Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true
+        }
+      }
+    },
+    {
+      "id": "R05",
+      "role": "Daily Loss Limit Guardian",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": null,
+      "additional_repos": [],
+      "source_paths": [],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:31.956695Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      }
+    },
+    {
+      "id": "R06",
+      "role": "Slippage & Cost Analyst",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ranaroussi/quantstats",
+      "additional_repos": [
+        "https://github.com/bcdannyboy/STOC-D"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocd"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.001402Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocd": true
+        }
+      }
+    },
+    {
+      "id": "S01",
+      "role": "Strategy Ideation",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/AI4Finance-Foundation/FinRL",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/FinRL-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.048551Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/FinRL-master": true
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "role": "Parameter Optimizer",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/optuna/optuna",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.097022Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "role": "Walk-Forward Tester",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/mementum/backtrader",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.143244Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader": true
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "role": "Strategy Combiner",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/pst-group/pysystemtrade",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/pysystemtrade-develop"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.190540Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/pysystemtrade-develop": true
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "role": "Regime Detector",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/hmmlearn/hmmlearn",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.239305Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn": true
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "role": "Entry & Exit Refiner",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TA-Lib/ta-lib",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.288711Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "role": "Indicator Factory",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TA-Lib/ta-lib",
+      "additional_repos": [
+        "arch-main",
+        "https://github.com/MeridianAlgo/Learn-Quant",
+        "https://github.com/twopirllc/pandas-ta"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/arch-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Learn-Quant"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.347260Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/arch-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Learn-Quant": true
+        }
+      }
+    },
+    {
+      "id": "ZR-D",
+      "role": "Data Feeds Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/microsoft/qlib",
+      "additional_repos": [
+        "https://github.com/langchain-ai/langgraph"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main"
+      ],
+      "subscribes_to": [
+        "signals.market.raw",
+        "data.ingest"
+      ],
+      "publishes_to": [
+        "signals.market"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.419526Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      }
+    },
+    {
+      "id": "ZR-S",
+      "role": "Strategy Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/microsoft/qlib",
+      "additional_repos": [
+        "https://github.com/optuna/optuna"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master"
+      ],
+      "subscribes_to": [
+        "signals.market",
+        "strategy.proposals"
+      ],
+      "publishes_to": [
+        "strategy.signals"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.495257Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      }
+    },
+    {
+      "id": "ZR-R",
+      "role": "Risk Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0013"
+      ],
+      "subscribes_to": [
+        "strategy.signals",
+        "risk.assessment"
+      ],
+      "publishes_to": [
+        "risk.signals",
+        "veto.channel"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.571662Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0013": true
+        }
+      }
+    },
+    {
+      "id": "ZR-E",
+      "role": "Execution Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/nautechsystems/nautilus_trader",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop"
+      ],
+      "subscribes_to": [
+        "risk.signals",
+        "execution.approved"
+      ],
+      "publishes_to": [
+        "execution.orders",
+        "execution.status"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.634952Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop": true
+        }
+      }
+    },
+    {
+      "id": "ZR-L",
+      "role": "Research Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/optuna/optuna",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master"
+      ],
+      "subscribes_to": [
+        "research.requests",
+        "backtest.results"
+      ],
+      "publishes_to": [
+        "research.findings",
+        "strategy.ideas"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.699977Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      }
+    },
+    {
+      "id": "ZR-A",
+      "role": "Trading Desks Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028"
+      ],
+      "subscribes_to": [
+        "strategy.signals",
+        "risk.signals"
+      ],
+      "publishes_to": [
+        "desk.analysis",
+        "trade.recommendations"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.764322Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028": true
+        }
+      }
+    },
+    {
+      "id": "ZR-J",
+      "role": "Jurors Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027"
+      ],
+      "subscribes_to": [
+        "desk.analysis",
+        "trade.recommendations"
+      ],
+      "publishes_to": [
+        "juror.verdict",
+        "authorization.decision"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.821255Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027": true
+        }
+      }
+    },
+    {
+      "id": "XR-01",
+      "role": "Data to Strategy Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "signals.market"
+      ],
+      "publishes_to": [
+        "strategy.inputs"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.881816Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "XR-02",
+      "role": "Strategy to Risk Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "strategy.signals"
+      ],
+      "publishes_to": [
+        "risk.evaluation"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:32.940845Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "XR-03",
+      "role": "Risk to Execution Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028"
+      ],
+      "subscribes_to": [
+        "risk.signals"
+      ],
+      "publishes_to": [
+        "execution.approved"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.000902Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028": true
+        }
+      }
+    },
+    {
+      "id": "XR-04",
+      "role": "Desks to Jurors Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "desk.analysis",
+        "trade.recommendations"
+      ],
+      "publishes_to": [
+        "juror.review"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.062439Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "XR-05",
+      "role": "Jurors to Auth Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ArielLaub/protobus-py",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py"
+      ],
+      "subscribes_to": [
+        "juror.verdict",
+        "authorization.decision"
+      ],
+      "publishes_to": [
+        "execution.auth"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.122721Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      }
+    },
+    {
+      "id": "XR-06",
+      "role": "Execution to Feedback Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "execution.status"
+      ],
+      "publishes_to": [
+        "feedback.execution"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.183607Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "XR-07",
+      "role": "Research Broadcaster",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/elijas/redis-message-queue",
+      "additional_repos": [
+        "https://github.com/ArielLaub/protobus-py"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py"
+      ],
+      "subscribes_to": [
+        "research.findings"
+      ],
+      "publishes_to": [
+        "broadcast.system"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.242690Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      }
+    },
+    {
+      "id": "R-B01",
+      "role": "Signal Router",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0007"
+      ],
+      "subscribes_to": [
+        "signals.market",
+        "signals.risk",
+        "signals.execution"
+      ],
+      "publishes_to": [
+        "routed.signals"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.304265Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0007": true
+        }
+      }
+    },
+    {
+      "id": "R-B02",
+      "role": "Consensus Aggregator",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/iterative/dvc",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main"
+      ],
+      "subscribes_to": [
+        "routed.signals",
+        "juror.verdict"
+      ],
+      "publishes_to": [
+        "consensus.decision"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.365113Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      }
+    },
+    {
+      "id": "R-B03",
+      "role": "Local Cloud Bridge",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/bloomberg/blazingmq",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/blazingmq"
+      ],
+      "subscribes_to": [
+        "consensus.decision"
+      ],
+      "publishes_to": [
+        "cloud.bridge"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.424897Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/blazingmq": true
+        }
+      }
+    },
+    {
+      "id": "R-B04",
+      "role": "Broadcast Bot",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/elijas/redis-message-queue",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue"
+      ],
+      "subscribes_to": [
+        "broadcast.system",
+        "system.alerts"
+      ],
+      "publishes_to": [
+        "broadcast.system"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.486619Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue": true
+        }
+      }
+    },
+    {
+      "id": "R-B05",
+      "role": "Authorization Gateway",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027"
+      ],
+      "subscribes_to": [
+        "execution.auth",
+        "risk.signals",
+        "veto.channel"
+      ],
+      "publishes_to": [
+        "execution.approved"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.548597Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027": true
+        }
+      }
+    },
+    {
+      "id": "R-B06",
+      "role": "Feedback Loop",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "feedback.execution"
+      ],
+      "publishes_to": [
+        "feedback.processed"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.607982Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "SYS-01",
+      "role": "Health Monitor",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/slavox/netdata",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/netdata"
+      ],
+      "subscribes_to": [
+        "health.pong"
+      ],
+      "publishes_to": [
+        "health.ping"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.671174Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/netdata": true
+        }
+      }
+    },
+    {
+      "id": "SYS-02",
+      "role": "Queue Manager",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/celery/kombu",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu"
+      ],
+      "subscribes_to": [
+        "queue.manage"
+      ],
+      "publishes_to": [
+        "queue.status"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.733898Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      }
+    },
+    {
+      "id": "SYS-03",
+      "role": "Priority Sorter",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ArielLaub/protobus-py",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py"
+      ],
+      "subscribes_to": [
+        "priority.queue"
+      ],
+      "publishes_to": [
+        "priority.sorted"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.799565Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      }
+    },
+    {
+      "id": "SYS-04",
+      "role": "Dead Letter Handler",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/taskiq-python/taskiq-aio-pika",
+      "additional_repos": [
+        "https://github.com/k00000000/redis-workq"
+      ],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/taskiq-aio-pika",
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-workq"
+      ],
+      "subscribes_to": [
+        "dead.letter"
+      ],
+      "publishes_to": [
+        "dead.letter.handled"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.858411Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/taskiq-aio-pika": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-workq": true
+        }
+      }
+    },
+    {
+      "id": "SYS-05",
+      "role": "Clock Sync",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/073145/kronos-rt",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kronos-rt"
+      ],
+      "subscribes_to": [
+        "clock.tick"
+      ],
+      "publishes_to": [
+        "clock.sync"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.919187Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kronos-rt": true
+        }
+      }
+    },
+    {
+      "id": "SYS-06",
+      "role": "Session Manager",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "trading_mode": "SIMULATED",
+      "name": null,
+      "primary_repo": "https://github.com/ethan-mdev/process-watch",
+      "additional_repos": [],
+      "source_paths": [
+        "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/process-watch"
+      ],
+      "subscribes_to": [
+        "session.control"
+      ],
+      "publishes_to": [
+        "broadcast.system"
+      ],
+      "created": "2026-11-12",
+      "last_updated": "2026-11-12",
+      "last_health_check": "2026-11-13T00:57:33.977971Z",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/process-watch": true
+        }
+      }
+    }
+  ],
+  "last_health_check_run": "2026-11-13T00:57:33.978033Z",
+  "health_check_summary": {
+    "total": 87,
+    "active": 87,
+    "offline": 0,
+    "errors": 0
+  }
+}

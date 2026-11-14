@@ -1,0 +1,238 @@
+{
+  "generated": "2026-11-12",
+  "description": "OLYMPUS Redis channel map for relay layer messaging",
+  "channels": {
+    "signals.market.raw": {
+      "publishers": ["A01", "A06", "A05", "D01", "D02", "D03", "D04", "D05", "D06"],
+      "subscribers": ["ZR-D"],
+      "description": "Raw market data signals from data feed agents"
+    },
+    "data.ingest": {
+      "publishers": ["D01", "D02", "D03", "D04", "D05", "D06"],
+      "subscribers": ["ZR-D"],
+      "description": "Data ingestion events from data feed agents"
+    },
+    "signals.market": {
+      "publishers": ["ZR-D", "A01", "A06", "A05"],
+      "subscribers": ["ZR-S", "XR-01", "R-B01"],
+      "description": "Aggregated market signals for strategy zone"
+    },
+    "strategy.proposals": {
+      "publishers": ["S01", "S04", "S05", "S06", "S07"],
+      "subscribers": ["ZR-S"],
+      "description": "Strategy proposals from strategy building agents"
+    },
+    "strategy.signals": {
+      "publishers": ["ZR-S", "L05"],
+      "subscribers": ["ZR-R", "ZR-A", "XR-02"],
+      "description": "Validated strategy signals for risk and desk zones"
+    },
+    "risk.assessment": {
+      "publishers": ["R01", "R02", "R03", "R04", "R05", "R06"],
+      "subscribers": ["ZR-R"],
+      "description": "Risk assessments from risk compliance agents"
+    },
+    "risk.signals": {
+      "publishers": ["ZR-R", "A13", "R01", "R02", "R05"],
+      "subscribers": ["ZR-E", "XR-03", "R-B05"],
+      "description": "Risk signals for execution zone and authorization gateway"
+    },
+    "veto.channel": {
+      "publishers": ["A13", "R02", "R05"],
+      "subscribers": ["R-B05"],
+      "description": "Veto messages from risk control and compliance agents"
+    },
+    "execution.approved": {
+      "publishers": ["XR-03", "R-B05"],
+      "subscribers": ["ZR-E", "K01"],
+      "description": "Execution-approved messages. R-B05 publishes to K01 only."
+    },
+    "execution.orders": {
+      "publishers": ["ZR-E"],
+      "subscribers": ["K01"],
+      "description": "Order messages from execution zone relay"
+    },
+    "execution.status": {
+      "publishers": ["ZR-E", "K01", "E06"],
+      "subscribers": ["XR-06"],
+      "description": "Execution status updates"
+    },
+    "research.requests": {
+      "publishers": ["L01", "L02", "L03", "L04", "L05", "L06"],
+      "subscribers": ["ZR-L"],
+      "description": "Research requests from research learning agents"
+    },
+    "backtest.results": {
+      "publishers": ["L02", "A11"],
+      "subscribers": ["ZR-L"],
+      "description": "Backtest results for research zone"
+    },
+    "research.findings": {
+      "publishers": ["ZR-L", "L05"],
+      "subscribers": ["XR-07"],
+      "description": "Research findings for broadcast"
+    },
+    "strategy.ideas": {
+      "publishers": ["ZR-L", "S01"],
+      "subscribers": ["L01"],
+      "description": "Strategy ideas from research zone"
+    },
+    "desk.analysis": {
+      "publishers": ["ZR-A", "A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A09", "A10"],
+      "subscribers": ["ZR-J", "XR-04"],
+      "description": "Trading desk analysis for jurors zone"
+    },
+    "trade.recommendations": {
+      "publishers": ["ZR-A", "A14", "A15", "A16"],
+      "subscribers": ["ZR-J", "XR-04"],
+      "description": "Trade recommendations from portfolio agents"
+    },
+    "juror.verdict": {
+      "publishers": ["ZR-J", "J01", "J02", "J03", "J04", "J05", "J06", "J07"],
+      "subscribers": ["XR-05", "R-B02"],
+      "description": "Juror verdicts for authorization and consensus"
+    },
+    "authorization.decision": {
+      "publishers": ["ZR-J", "R-B05"],
+      "subscribers": ["XR-05"],
+      "description": "Authorization decisions for execution gateway"
+    },
+    "strategy.inputs": {
+      "publishers": ["XR-01"],
+      "subscribers": ["S02", "S03", "S04"],
+      "description": "Data inputs for strategy zone"
+    },
+    "risk.evaluation": {
+      "publishers": ["XR-02"],
+      "subscribers": ["R01", "R02", "R03", "R04", "R05", "R06"],
+      "description": "Risk evaluations for risk compliance agents"
+    },
+    "juror.review": {
+      "publishers": ["XR-04"],
+      "subscribers": ["J01", "J02", "J03", "J04", "J05", "J06", "J07"],
+      "description": "Juror review requests"
+    },
+    "execution.auth": {
+      "publishers": ["XR-05"],
+      "subscribers": ["R-B05"],
+      "description": "Execution authorization requests"
+    },
+    "feedback.execution": {
+      "publishers": ["K01", "E06"],
+      "subscribers": ["R-B06"],
+      "description": "Execution feedback for improvement loop"
+    },
+    "broadcast.system": {
+      "publishers": ["R-B04", "SYS-06", "XR-07"],
+      "subscribers": ["ALL"],
+      "description": "System-wide broadcast channel"
+    },
+    "routed.signals": {
+      "publishers": ["R-B01"],
+      "subscribers": ["R-B02"],
+      "description": "Routed signals for consensus aggregation"
+    },
+    "consensus.decision": {
+      "publishers": ["R-B02"],
+      "subscribers": ["R-B03"],
+      "description": "Consensus decisions for cloud bridge"
+    },
+    "cloud.bridge": {
+      "publishers": ["R-B03"],
+      "subscribers": [],
+      "description": "Cloud bridge output (when authorized)"
+    },
+    "system.alerts": {
+      "publishers": ["SYS-01", "SYS-04"],
+      "subscribers": ["R-B04"],
+      "description": "System alerts for broadcast"
+    },
+    "feedback.processed": {
+      "publishers": ["R-B06"],
+      "subscribers": ["S01", "S02", "A19"],
+      "description": "Processed feedback for continuous improvement"
+    },
+    "health.ping": {
+      "publishers": ["SYS-01"],
+      "subscribers": ["ALL"],
+      "description": "Health check ping to all bots"
+    },
+    "health.pong": {
+      "publishers": ["ALL"],
+      "subscribers": ["SYS-01"],
+      "description": "Health check pong from all bots"
+    },
+    "queue.manage": {
+      "publishers": ["R-B01", "R-B02"],
+      "subscribers": ["SYS-02"],
+      "description": "Queue management commands"
+    },
+    "queue.status": {
+      "publishers": ["SYS-02"],
+      "subscribers": ["R-B01", "R-B02"],
+      "description": "Queue status responses"
+    },
+    "priority.queue": {
+      "publishers": ["R-B01", "R-B02"],
+      "subscribers": ["SYS-03"],
+      "description": "Priority queue messages"
+    },
+    "priority.sorted": {
+      "publishers": ["SYS-03"],
+      "subscribers": ["R-B01"],
+      "description": "Priority-sorted messages"
+    },
+    "dead.letter": {
+      "publishers": ["R-B01", "R-B02", "R-B05", "SYS-01", "SYS-02", "SYS-03"],
+      "subscribers": ["SYS-04"],
+      "description": "Undeliverable messages"
+    },
+    "dead.letter.handled": {
+      "publishers": ["SYS-04"],
+      "subscribers": ["logs"],
+      "description": "Dead letter handling confirmation"
+    },
+    "clock.tick": {
+      "publishers": ["SYS-05"],
+      "subscribers": ["ALL"],
+      "description": "Clock tick for timestamping"
+    },
+    "clock.sync": {
+      "publishers": ["SYS-05"],
+      "subscribers": ["ALL"],
+      "description": "Clock synchronization signals"
+    },
+    "session.control": {
+      "publishers": ["SYS-06"],
+      "subscribers": ["ALL"],
+      "description": "Session control signals (STANDBY/ACTIVE)"
+    }
+  },
+  "relay_routing_rules": {
+    "zone_relays": {
+      "ZR-D": "only within D zone",
+      "ZR-S": "only within S zone",
+      "ZR-R": "only within R zone",
+      "ZR-E": "only within E zone",
+      "ZR-L": "only within L zone",
+      "ZR-A": "only within A zone",
+      "ZR-J": "only within J zone"
+    },
+    "cross_zone_relays": {
+      "XR-01": "D zone to S zone",
+      "XR-02": "S zone to R zone",
+      "XR-03": "R zone to E zone",
+      "XR-04": "A zone to J zone",
+      "XR-05": "J zone to authorization",
+      "XR-06": "E zone to feedback",
+      "XR-07": "broadcast research across all zones"
+    },
+    "system_level": {
+      "R-B05": "single gateway to K01 - must check J01-J07 approval + A13 veto + R02 prop firm status",
+      "K01": "receives messages ONLY from R-B05",
+      "SYS-01": "pings all bots every 60 seconds",
+      "SYS-05": "timestamps every message",
+      "SYS-06": "opens/closes trading sessions via broadcast.system"
+    }
+  }
+}

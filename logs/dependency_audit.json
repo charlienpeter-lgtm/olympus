@@ -1,0 +1,1745 @@
+{
+  "generated": "2026-11-12T23:05:15.200649Z",
+  "total_agents": 87,
+  "unique_repos": 56,
+  "total_packages": 144,
+  "packages": [
+    "aenum",
+    "aio-pika",
+    "aiofiles",
+    "aiohttp",
+    "aiomqtt",
+    "aioprocessing",
+    "aioresponses",
+    "aiormq",
+    "aiounittest",
+    "alpaca-py",
+    "alpha_vantage",
+    "anyio",
+    "appdirs",
+    "apscheduler",
+    "aptos-sdk",
+    "async-timeout",
+    "asyncssh",
+    "backoff",
+    "base58",
+    "bcrypt",
+    "beautifulsoup4",
+    "bidict",
+    "bip-utils",
+    "boto3",
+    "brotli",
+    "cachetools",
+    "ccxt",
+    "certifi",
+    "click",
+    "colorama",
+    "cryptography",
+    "databento",
+    "dataclasses_json",
+    "decibel-python-sdk",
+    "deprecation",
+    "duckdb",
+    "elasticsearch",
+    "eodhd",
+    "eth-account",
+    "exchange_calendars",
+    "filelock",
+    "financetoolkit",
+    "flask",
+    "free-proxy",
+    "google-adk",
+    "google-genai",
+    "gs_quant",
+    "holidays",
+    "httpx",
+    "ibapi",
+    "inflection",
+    "injective-py",
+    "ipython",
+    "jsonpickle",
+    "lighter-sdk",
+    "litellm",
+    "lmfit",
+    "lumiwealth-tradier",
+    "massive",
+    "matplotlib",
+    "mcp",
+    "ml4t-specs",
+    "more_itertools",
+    "msgpack",
+    "msgpack-python",
+    "nest-asyncio",
+    "newspaper3k",
+    "nltk",
+    "notify_py",
+    "numba",
+    "numpy",
+    "objgraph",
+    "openai",
+    "openpyxl",
+    "opentelemetry-api",
+    "opentelemetry-sdk",
+    "pandas",
+    "pandas-market-calendars",
+    "pandas-ta",
+    "pandas-ta-classic",
+    "pandas_market_calendars",
+    "platformdirs",
+    "plotly",
+    "polars",
+    "prompt_toolkit",
+    "protobuf",
+    "psutil",
+    "psycopg2-binary",
+    "py-clob-client-v2",
+    "pyarrow",
+    "pybind11",
+    "pybreaker",
+    "pydantic",
+    "pydantic-settings",
+    "pydash",
+    "pyfiglet",
+    "pyjwt",
+    "pyperclip",
+    "pyportfolioopt",
+    "pytest",
+    "python-dateutil",
+    "python-dotenv",
+    "python-telegram-bot",
+    "pytz",
+    "pyyaml",
+    "quandl",
+    "quantstats",
+    "quantstats-lumi",
+    "redis",
+    "requests",
+    "requests-oauthlib",
+    "rich",
+    "ruamel.yaml",
+    "safe-pysha3",
+    "scalecodec",
+    "schwab-py",
+    "scikit-learn",
+    "scipy",
+    "signalrcore",
+    "six",
+    "solders",
+    "sqlalchemy",
+    "statsmodels",
+    "structlog",
+    "ta-lib",
+    "tabulate",
+    "taskiq",
+    "tenacity",
+    "termcolor",
+    "textblob",
+    "tomli",
+    "tqdm",
+    "tweepy",
+    "typer",
+    "typing-extensions",
+    "ujson",
+    "urllib3",
+    "vadersentiment",
+    "web3",
+    "websocket-client",
+    "websockets",
+    "xrpl-py",
+    "yappi",
+    "yfinance"
+  ],
+  "package_to_agents": {
+    "aenum": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "aio-pika": {
+      "agents": [
+        "SYS-04"
+      ],
+      "zones": [
+        "strategy-building"
+      ]
+    },
+    "aiofiles": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "aiohttp": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "aiomqtt": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "aioprocessing": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "aioresponses": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "aiormq": {
+      "agents": [
+        "SYS-03",
+        "XR-05",
+        "XR-07"
+      ],
+      "zones": [
+        "relay",
+        "strategy-building"
+      ]
+    },
+    "aiounittest": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "alpaca-py": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "alpha_vantage": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "anyio": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "appdirs": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "apscheduler": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "aptos-sdk": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "async-timeout": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "asyncssh": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "backoff": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "base58": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "bcrypt": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "beautifulsoup4": {
+      "agents": [
+        "A02",
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "bidict": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "bip-utils": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "boto3": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "brotli": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "cachetools": {
+      "agents": [
+        "A03",
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "ccxt": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "certifi": {
+      "agents": [
+        "A03",
+        "D02"
+      ],
+      "zones": [
+        "data-feeds",
+        "trading-desks"
+      ]
+    },
+    "click": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "colorama": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "cryptography": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "databento": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "dataclasses_json": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "decibel-python-sdk": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "deprecation": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "duckdb": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "elasticsearch": {
+      "agents": [
+        "A02"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "eodhd": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "eth-account": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "exchange_calendars": {
+      "agents": [
+        "A11",
+        "E01"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "filelock": {
+      "agents": [
+        "D02",
+        "E01"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution"
+      ]
+    },
+    "financetoolkit": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "flask": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "free-proxy": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "google-adk": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "google-genai": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "gs_quant": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "holidays": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "httpx": {
+      "agents": [
+        "A03",
+        "D02"
+      ],
+      "zones": [
+        "data-feeds",
+        "trading-desks"
+      ]
+    },
+    "ibapi": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "inflection": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "injective-py": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "ipython": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "jsonpickle": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "lighter-sdk": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "litellm": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "lmfit": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "lumiwealth-tradier": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "massive": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "matplotlib": {
+      "agents": [
+        "E01",
+        "S07"
+      ],
+      "zones": [
+        "execution",
+        "strategy-building"
+      ]
+    },
+    "mcp": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "ml4t-specs": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "more_itertools": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "msgpack": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "msgpack-python": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "nest-asyncio": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "newspaper3k": {
+      "agents": [
+        "A02"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "nltk": {
+      "agents": [
+        "A02"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "notify_py": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "numba": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "numpy": {
+      "agents": [
+        "A03",
+        "A11",
+        "D02",
+        "E01",
+        "E03",
+        "L04",
+        "S05",
+        "S07"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution",
+        "research-learning",
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "objgraph": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "openai": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "openpyxl": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "opentelemetry-api": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "opentelemetry-sdk": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pandas": {
+      "agents": [
+        "A03",
+        "A11",
+        "D02",
+        "E01",
+        "E03",
+        "S07"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution",
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "pandas-market-calendars": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "pandas-ta": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pandas-ta-classic": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pandas_market_calendars": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "platformdirs": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "plotly": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "polars": {
+      "agents": [
+        "D02",
+        "E01"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution"
+      ]
+    },
+    "prompt_toolkit": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "protobuf": {
+      "agents": [
+        "E01",
+        "E03",
+        "SYS-03",
+        "XR-05",
+        "XR-07"
+      ],
+      "zones": [
+        "execution",
+        "relay",
+        "strategy-building"
+      ]
+    },
+    "psutil": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "psycopg2-binary": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "py-clob-client-v2": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pyarrow": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pybind11": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pybreaker": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "pydantic": {
+      "agents": [
+        "D02",
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution"
+      ]
+    },
+    "pydantic-settings": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "pydash": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pyfiglet": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pyjwt": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pyperclip": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pyportfolioopt": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pytest": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "python-dateutil": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "python-dotenv": {
+      "agents": [
+        "A11",
+        "D02",
+        "E01"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "python-telegram-bot": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "pytz": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "pyyaml": {
+      "agents": [
+        "A03",
+        "A11",
+        "D02",
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "data-feeds",
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "quandl": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "quantstats": {
+      "agents": [
+        "A11"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "quantstats-lumi": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "redis": {
+      "agents": [
+        "R-B04",
+        "XR-07"
+      ],
+      "zones": [
+        "relay",
+        "risk-compliance"
+      ]
+    },
+    "requests": {
+      "agents": [
+        "A02",
+        "A03",
+        "E01",
+        "E03",
+        "S07"
+      ],
+      "zones": [
+        "execution",
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "requests-oauthlib": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "rich": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "ruamel.yaml": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "safe-pysha3": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "scalecodec": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "schwab-py": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "scikit-learn": {
+      "agents": [
+        "L04",
+        "S05",
+        "S07"
+      ],
+      "zones": [
+        "research-learning",
+        "strategy-building"
+      ]
+    },
+    "scipy": {
+      "agents": [
+        "A03",
+        "E01",
+        "E03",
+        "L04",
+        "S05",
+        "S07"
+      ],
+      "zones": [
+        "execution",
+        "research-learning",
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "signalrcore": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "six": {
+      "agents": [
+        "A11",
+        "E01",
+        "E03",
+        "S03"
+      ],
+      "zones": [
+        "execution",
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "solders": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "sqlalchemy": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "statsmodels": {
+      "agents": [
+        "A03"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "structlog": {
+      "agents": [
+        "D02"
+      ],
+      "zones": [
+        "data-feeds"
+      ]
+    },
+    "ta-lib": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "tabulate": {
+      "agents": [
+        "A11",
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "taskiq": {
+      "agents": [
+        "SYS-04"
+      ],
+      "zones": [
+        "strategy-building"
+      ]
+    },
+    "tenacity": {
+      "agents": [
+        "D02",
+        "R-B04",
+        "XR-07"
+      ],
+      "zones": [
+        "data-feeds",
+        "relay",
+        "risk-compliance"
+      ]
+    },
+    "termcolor": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "textblob": {
+      "agents": [
+        "A02",
+        "S07"
+      ],
+      "zones": [
+        "strategy-building",
+        "trading-desks"
+      ]
+    },
+    "tomli": {
+      "agents": [
+        "SYS-03",
+        "XR-05",
+        "XR-07"
+      ],
+      "zones": [
+        "relay",
+        "strategy-building"
+      ]
+    },
+    "tqdm": {
+      "agents": [
+        "A03",
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "tweepy": {
+      "agents": [
+        "A02"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "typer": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "typing-extensions": {
+      "agents": [
+        "SYS-04"
+      ],
+      "zones": [
+        "strategy-building"
+      ]
+    },
+    "ujson": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "urllib3": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "vadersentiment": {
+      "agents": [
+        "A02"
+      ],
+      "zones": [
+        "trading-desks"
+      ]
+    },
+    "web3": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "websocket-client": {
+      "agents": [
+        "S07"
+      ],
+      "zones": [
+        "strategy-building"
+      ]
+    },
+    "websockets": {
+      "agents": [
+        "A03",
+        "E01"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    },
+    "xrpl-py": {
+      "agents": [
+        "E01",
+        "E03"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "yappi": {
+      "agents": [
+        "E01"
+      ],
+      "zones": [
+        "execution"
+      ]
+    },
+    "yfinance": {
+      "agents": [
+        "A11",
+        "E01"
+      ],
+      "zones": [
+        "execution",
+        "trading-desks"
+      ]
+    }
+  },
+  "repo_deps": {
+    "FinRL-master": [],
+    "Kronos-master": [],
+    "Lean-master": [],
+    "Learn-Quant": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "requests",
+      "scikit-learn",
+      "scipy",
+      "textblob",
+      "websocket-client"
+    ],
+    "OpenBB-develop": [],
+    "OpenTerminal-main": [],
+    "OpenTradex-main": [],
+    "PyPortfolioOpt-main": [],
+    "Quant-Monte-Carlo-Simulation-main": [],
+    "Riskfolio-Lib-master": [],
+    "Trading-Agents": [],
+    "Trading-Agents/bot-0007": [],
+    "Trading-Agents/bot-0013": [],
+    "Trading-Agents/bot-0027": [],
+    "Trading-Agents/bot-0028": [],
+    "TradingAgents-main": [],
+    "ai-hedge-fund": [],
+    "arch-main": [],
+    "awesome-systematic-trading": [],
+    "backtrader": [
+      "six"
+    ],
+    "bbstrader": [
+      "beautifulsoup4",
+      "colorama",
+      "eodhd",
+      "exchange_calendars",
+      "financetoolkit",
+      "ipython",
+      "notify_py",
+      "numpy",
+      "pandas",
+      "pybind11",
+      "pyfiglet",
+      "pyportfolioopt",
+      "python-dotenv",
+      "python-telegram-bot",
+      "pyyaml",
+      "quantstats",
+      "tabulate",
+      "yfinance"
+    ],
+    "blazingmq": [],
+    "ccxt-master": [],
+    "cvxpy-master": [],
+    "dvc-main": [],
+    "finBERT-master": [],
+    "fredapi-master": [],
+    "freqtrade-develop": [],
+    "gs-quant": [
+      "aenum",
+      "backoff",
+      "cachetools",
+      "certifi",
+      "dataclasses_json",
+      "deprecation",
+      "gs_quant",
+      "httpx",
+      "inflection",
+      "lmfit",
+      "more_itertools",
+      "msgpack",
+      "nest-asyncio",
+      "numpy",
+      "opentelemetry-api",
+      "opentelemetry-sdk",
+      "pandas",
+      "pydash",
+      "python-dateutil",
+      "pyyaml",
+      "requests",
+      "scipy",
+      "statsmodels",
+      "tqdm",
+      "websockets"
+    ],
+    "hftbacktest-master": [],
+    "hmmlearn": [
+      "numpy",
+      "scikit-learn",
+      "scipy"
+    ],
+    "hummingbot": [
+      "aiohttp",
+      "aiomqtt",
+      "aioprocessing",
+      "aioresponses",
+      "aiounittest",
+      "aptos-sdk",
+      "async-timeout",
+      "asyncssh",
+      "base58",
+      "bidict",
+      "bip-utils",
+      "brotli",
+      "cachetools",
+      "cryptography",
+      "decibel-python-sdk",
+      "eth-account",
+      "injective-py",
+      "lighter-sdk",
+      "msgpack-python",
+      "numba",
+      "numpy",
+      "objgraph",
+      "pandas",
+      "pandas-ta",
+      "prompt_toolkit",
+      "protobuf",
+      "psutil",
+      "pydantic",
+      "pyjwt",
+      "pyperclip",
+      "pyyaml",
+      "requests",
+      "ruamel.yaml",
+      "safe-pysha3",
+      "scalecodec",
+      "scipy",
+      "six",
+      "solders",
+      "sqlalchemy",
+      "ta-lib",
+      "tabulate",
+      "tqdm",
+      "typer",
+      "ujson",
+      "urllib3",
+      "web3",
+      "xrpl-py"
+    ],
+    "kombu": [],
+    "kronos-rt": [],
+    "langgraph-main": [],
+    "lumibot": [
+      "alpaca-py",
+      "alpha_vantage",
+      "anyio",
+      "appdirs",
+      "apscheduler",
+      "bcrypt",
+      "boto3",
+      "ccxt",
+      "databento",
+      "duckdb",
+      "exchange_calendars",
+      "filelock",
+      "flask",
+      "free-proxy",
+      "google-adk",
+      "google-genai",
+      "holidays",
+      "ibapi",
+      "jsonpickle",
+      "litellm",
+      "lumiwealth-tradier",
+      "massive",
+      "matplotlib",
+      "mcp",
+      "numpy",
+      "openai",
+      "pandas",
+      "pandas-ta-classic",
+      "pandas_market_calendars",
+      "plotly",
+      "polars",
+      "psutil",
+      "psycopg2-binary",
+      "py-clob-client-v2",
+      "pyarrow",
+      "pyjwt",
+      "pytest",
+      "python-dotenv",
+      "pytz",
+      "quandl",
+      "quantstats-lumi",
+      "requests-oauthlib",
+      "schwab-py",
+      "scipy",
+      "signalrcore",
+      "sqlalchemy",
+      "tabulate",
+      "termcolor",
+      "tqdm",
+      "websockets",
+      "yappi",
+      "yfinance"
+    ],
+    "ml4t-data": [
+      "aiofiles",
+      "certifi",
+      "click",
+      "filelock",
+      "httpx",
+      "ml4t-specs",
+      "numpy",
+      "openpyxl",
+      "pandas",
+      "pandas-market-calendars",
+      "platformdirs",
+      "polars",
+      "pybreaker",
+      "pydantic",
+      "pydantic-settings",
+      "python-dotenv",
+      "pyyaml",
+      "rich",
+      "structlog",
+      "tenacity"
+    ],
+    "nautilus_trader-develop": [],
+    "netdata": [],
+    "optuna-master": [],
+    "pandas-ta": [],
+    "process-watch": [],
+    "protobus-py": [
+      "aiormq",
+      "protobuf",
+      "tomli"
+    ],
+    "pysystemtrade-develop": [],
+    "qlib-main": [],
+    "quantportfolio": [],
+    "quantstats-main": [],
+    "redis-message-queue": [
+      "redis",
+      "tenacity"
+    ],
+    "redis-workq": [],
+    "skfolio-main": [],
+    "stocd": [],
+    "stocksight": [
+      "beautifulsoup4",
+      "elasticsearch",
+      "newspaper3k",
+      "nltk",
+      "requests",
+      "textblob",
+      "tweepy",
+      "vadersentiment"
+    ],
+    "ta-lib-main": [],
+    "taskiq-aio-pika": [
+      "aio-pika",
+      "taskiq",
+      "typing-extensions"
+    ],
+    "vectorbt-master": [],
+    "yfinance-main": []
+  },
+  "repos_without_config": [
+    "FinRL-master",
+    "Kronos-master",
+    "Lean-master",
+    "OpenBB-develop",
+    "OpenTerminal-main",
+    "OpenTradex-main",
+    "PyPortfolioOpt-main",
+    "Quant-Monte-Carlo-Simulation-main",
+    "Riskfolio-Lib-master",
+    "Trading-Agents",
+    "Trading-Agents/bot-0007",
+    "Trading-Agents/bot-0013",
+    "Trading-Agents/bot-0027",
+    "Trading-Agents/bot-0028",
+    "TradingAgents-main",
+    "arch-main",
+    "awesome-systematic-trading",
+    "blazingmq",
+    "ccxt-master",
+    "cvxpy-master",
+    "dvc-main",
+    "finBERT-master",
+    "fredapi-master",
+    "freqtrade-develop",
+    "hftbacktest-master",
+    "kronos-rt",
+    "langgraph-main",
+    "nautilus_trader-develop",
+    "netdata",
+    "optuna-master",
+    "pandas-ta",
+    "process-watch",
+    "pysystemtrade-develop",
+    "qlib-main",
+    "quantportfolio",
+    "quantstats-main",
+    "skfolio-main",
+    "stocd",
+    "ta-lib-main",
+    "vectorbt-master",
+    "yfinance-main"
+  ]
+}

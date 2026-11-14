@@ -1,0 +1,18 @@
+{
+  "id": "SYS-04",
+  "role": "Dead Letter Handler",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/taskiq-python/taskiq-aio-pika",
+  "additional_repos": [
+    "https://github.com/k00000000/redis-workq"
+  ],
+  "source_paths": [
+    "~/trading-repos/taskiq-aio-pika",
+    "~/trading-repos/redis-workq"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

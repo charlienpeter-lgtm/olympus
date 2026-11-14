@@ -1,0 +1,1055 @@
+{
+  "generated": "2026-11-13T00:57:33.980818Z",
+  "total_agents": 87,
+  "active_count": 87,
+  "offline_count": 0,
+  "error_count": 0,
+  "results": {
+    "A01": {
+      "role": "Market Intelligence",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A02": {
+      "role": "News & Events",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocksight": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A03": {
+      "role": "Macro Analysis",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/gs-quant": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A04": {
+      "role": "Sentiment & Positioning",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/finBERT-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A05": {
+      "role": "Quantitative Analysis",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Kronos-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A06": {
+      "role": "Technical Analysis",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A07": {
+      "role": "Order Flow",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "A08": {
+      "role": "Correlation & Relative Value",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A09": {
+      "role": "Strategy Architecture",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A10": {
+      "role": "Strategy Engineering",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A11": {
+      "role": "Backtesting",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hftbacktest-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/vectorbt-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Lean-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/bbstrader": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A12": {
+      "role": "Monte Carlo Simulation",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Quant-Monte-Carlo-Simulation-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A13": {
+      "role": "Risk Control & Veto",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "A14": {
+      "role": "Portfolio Management",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/skfolio-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantportfolio": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A15": {
+      "role": "Position Sizing",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/cvxpy-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Riskfolio-Lib-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A16": {
+      "role": "Independent Trade Review",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "A17": {
+      "role": "Execution Analysis & Order Prep",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "A18": {
+      "role": "Trade Surveillance",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "A19": {
+      "role": "Performance Analytics",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "A20": {
+      "role": "Continuous Improvement",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "D01": {
+      "role": "Live Market Data Aggregator",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenBB-develop": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/yfinance-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "D02": {
+      "role": "Historical Data Manager",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ml4t-data": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "D03": {
+      "role": "Alternative Data Collector",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/OpenTerminal-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "D04": {
+      "role": "Data Quality & Validation",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "D05": {
+      "role": "Economic Calendar Monitor",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/fredapi-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "D06": {
+      "role": "Broker Feed Normalizer",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "E01": {
+      "role": "Order Router",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ccxt-master": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/opentradex-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/lumibot": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "E02": {
+      "role": "Latency Monitor",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "E03": {
+      "role": "Partial Fill Handler",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hummingbot": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "E04": {
+      "role": "Bracket & Stop Manager",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/freqtrade-develop": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "E05": {
+      "role": "Trade Journal Writer",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "E06": {
+      "role": "Reconciliation Agent",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "J01": {
+      "role": "Chief Juror",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J02": {
+      "role": "Evidence & Source Reliability",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J03": {
+      "role": "Market Conditions",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J04": {
+      "role": "Strategy Stability",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J05": {
+      "role": "Opportunity Quality",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J06": {
+      "role": "Historical & Statistical",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "J07": {
+      "role": "Rules, Compliance & Authorization",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "K01": {
+      "role": "Master Execution Operator",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "L01": {
+      "role": "Paper Harvester",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/awesome-systematic-trading": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "L02": {
+      "role": "Backtest Reviewer",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "L03": {
+      "role": "Edge Decay Detector",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "L04": {
+      "role": "Market Regime Historian",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "L05": {
+      "role": "Community Signal Scanner",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/TradingAgents-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ai-hedge-fund": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "L06": {
+      "role": "Obsidian Knowledge Curator",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "OBS": {
+      "role": "Obsidian Vault Manager",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "ORC": {
+      "role": "Orchestrator",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R01": {
+      "role": "Drawdown Monitor",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R02": {
+      "role": "Prop Firm Rule Enforcer",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "R03": {
+      "role": "Correlation Risk Scanner",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R04": {
+      "role": "Exposure Calculator",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/PyPortfolioOpt-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R05": {
+      "role": "Daily Loss Limit Guardian",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {},
+        "note": "No source repos"
+      },
+      "error": "No module named 'redis'"
+    },
+    "R06": {
+      "role": "Slippage & Cost Analyst",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/quantstats-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/stocd": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S01": {
+      "role": "Strategy Ideation",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/FinRL-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S02": {
+      "role": "Parameter Optimizer",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S03": {
+      "role": "Walk-Forward Tester",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/backtrader": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S04": {
+      "role": "Strategy Combiner",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/pysystemtrade-develop": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S05": {
+      "role": "Regime Detector",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/hmmlearn": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S06": {
+      "role": "Entry & Exit Refiner",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "S07": {
+      "role": "Indicator Factory",
+      "bot_type": "AGENT",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/ta-lib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/arch-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Learn-Quant": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-D": {
+      "role": "Data Feeds Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/langgraph-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-S": {
+      "role": "Strategy Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/qlib-main": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-R": {
+      "role": "Risk Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0013": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-E": {
+      "role": "Execution Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/nautilus_trader-develop": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-L": {
+      "role": "Research Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/optuna-master": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-A": {
+      "role": "Trading Desks Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "ZR-J": {
+      "role": "Jurors Zone Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-01": {
+      "role": "Data to Strategy Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-02": {
+      "role": "Strategy to Risk Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-03": {
+      "role": "Risk to Execution Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0028": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-04": {
+      "role": "Desks to Jurors Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-05": {
+      "role": "Jurors to Auth Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-06": {
+      "role": "Execution to Feedback Relay",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "XR-07": {
+      "role": "Research Broadcaster",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B01": {
+      "role": "Signal Router",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0007": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B02": {
+      "role": "Consensus Aggregator",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/dvc-main": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B03": {
+      "role": "Local Cloud Bridge",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/blazingmq": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B04": {
+      "role": "Broadcast Bot",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-message-queue": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B05": {
+      "role": "Authorization Gateway",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/Trading-Agents/bot-0027": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "R-B06": {
+      "role": "Feedback Loop",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-01": {
+      "role": "Health Monitor",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/netdata": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-02": {
+      "role": "Queue Manager",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kombu": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-03": {
+      "role": "Priority Sorter",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/protobus-py": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-04": {
+      "role": "Dead Letter Handler",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/taskiq-aio-pika": true,
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/redis-workq": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-05": {
+      "role": "Clock Sync",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/kronos-rt": true
+        }
+      },
+      "error": "No module named 'redis'"
+    },
+    "SYS-06": {
+      "role": "Session Manager",
+      "bot_type": "RELAY",
+      "status": "SIMULATED_ACTIVE",
+      "health_result": {
+        "all_healthy": true,
+        "paths": {
+          "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos/process-watch": true
+        }
+      },
+      "error": "No module named 'redis'"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "R-B04",
+  "role": "Broadcast Bot",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/elijas/redis-message-queue",
+  "additional_repos": [],
+  "subscribes_to": [
+    "broadcast.system",
+    "system.alerts"
+  ],
+  "publishes_to": [
+    "broadcast.system"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

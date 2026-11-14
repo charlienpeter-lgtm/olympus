@@ -1,0 +1,18 @@
+{
+  "id": "SYS-01",
+  "role": "Health Monitor",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/slavox/netdata",
+  "additional_repos": [],
+  "subscribes_to": [
+    "health.pong"
+  ],
+  "publishes_to": [
+    "health.ping"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

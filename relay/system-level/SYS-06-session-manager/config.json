@@ -1,0 +1,18 @@
+{
+  "id": "SYS-06",
+  "role": "Session Manager",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/ethan-mdev/process-watch",
+  "additional_repos": [],
+  "subscribes_to": [
+    "session.control"
+  ],
+  "publishes_to": [
+    "broadcast.system"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

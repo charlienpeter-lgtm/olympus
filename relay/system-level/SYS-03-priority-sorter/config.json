@@ -1,0 +1,18 @@
+{
+  "id": "SYS-03",
+  "role": "Priority Sorter",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/ArielLaub/protobus-py",
+  "additional_repos": [],
+  "subscribes_to": [
+    "priority.queue"
+  ],
+  "publishes_to": [
+    "priority.sorted"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

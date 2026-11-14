@@ -1,0 +1,15 @@
+{
+  "generated": "2026-11-12",
+  "unassigned_repos": [],
+  "total_unassigned": 0,
+  "failed_clones": [],
+  "assignments_made": [
+    "Learn-Quant \u2192 S07 (technical indicators and quant metrics)",
+    "ai-hedge-fund \u2192 L05 (AI agent-based signal analysis)",
+    "bbstrader \u2192 A11 (crypto backtesting engine)",
+    "lumibot \u2192 E01 (order execution and broker integration)",
+    "nautilus_trader-develop \u2192 E01 (production-grade multi-venue execution engine)",
+    "pandas-ta \u2192 S07 (technical analysis library)",
+    "stocd \u2192 R06 (risk metrics, probability calculation, spread scoring)"
+  ]
+}

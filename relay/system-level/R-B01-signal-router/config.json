@@ -1,0 +1,20 @@
+{
+  "id": "R-B01",
+  "role": "Signal Router",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/TauricResearch/TradingAgents",
+  "additional_repos": [],
+  "subscribes_to": [
+    "signals.market",
+    "signals.risk",
+    "signals.execution"
+  ],
+  "publishes_to": [
+    "routed.signals"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

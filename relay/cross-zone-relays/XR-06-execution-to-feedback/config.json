@@ -1,0 +1,18 @@
+{
+  "id": "XR-06",
+  "role": "Execution to Feedback Relay",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/celery/kombu",
+  "additional_repos": [],
+  "subscribes_to": [
+    "execution.status"
+  ],
+  "publishes_to": [
+    "feedback.execution"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

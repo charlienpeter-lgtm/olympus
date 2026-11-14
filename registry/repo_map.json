@@ -1,0 +1,316 @@
+{
+  "generated": "2026-11-12",
+  "total_repos": 44,
+  "repos": [
+    {
+      "name": "FinRL-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\FinRL-master",
+      "assigned_agent_ids": ["S01"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "Kronos-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Kronos-master",
+      "assigned_agent_ids": ["A05"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "Lean-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Lean-master",
+      "assigned_agent_ids": ["A11"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "Learn-Quant",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Learn-Quant",
+      "assigned_agent_ids": ["S07"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "OpenBB-develop",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\OpenBB-develop",
+      "assigned_agent_ids": ["D01"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "OpenTerminal-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\OpenTerminal-main",
+      "assigned_agent_ids": ["A01", "D03"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "PyPortfolioOpt-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\PyPortfolioOpt-main",
+      "assigned_agent_ids": ["A08", "A14", "R04"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "Quant-Monte-Carlo-Simulation-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Quant-Monte-Carlo-Simulation-main",
+      "assigned_agent_ids": ["A12"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "Riskfolio-Lib-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Riskfolio-Lib-master",
+      "assigned_agent_ids": ["A15"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "Trading-Agents",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\Trading-Agents",
+      "assigned_agent_ids": ["L05"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "TradingAgents-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\TradingAgents-main",
+      "assigned_agent_ids": ["L05"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "ai-hedge-fund",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\ai-hedge-fund",
+      "assigned_agent_ids": ["L05"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "arch-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\arch-main",
+      "assigned_agent_ids": ["S07"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "awesome-systematic-trading",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\awesome-systematic-trading",
+      "assigned_agent_ids": ["L01"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "backtrader",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\backtrader",
+      "assigned_agent_ids": ["A11", "S03"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "bbstrader",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\bbstrader",
+      "assigned_agent_ids": ["A11"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "ccxt-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\ccxt-master",
+      "assigned_agent_ids": ["D06", "E01"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "cvxpy-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\cvxpy-master",
+      "assigned_agent_ids": ["A15"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "dvc-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\dvc-main",
+      "assigned_agent_ids": ["D02", "E06"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "finBERT-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\finBERT-master",
+      "assigned_agent_ids": ["A04"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "fredapi-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\fredapi-master",
+      "assigned_agent_ids": ["A03", "D05"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "freqtrade-develop",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\freqtrade-develop",
+      "assigned_agent_ids": ["E01", "E04"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "gs-quant",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\gs-quant",
+      "assigned_agent_ids": ["A03"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "hftbacktest-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\hftbacktest-master",
+      "assigned_agent_ids": ["A11"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "hmmlearn",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\hmmlearn",
+      "assigned_agent_ids": ["L04", "S05"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "hummingbot",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\hummingbot",
+      "assigned_agent_ids": ["E01", "E03"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "langgraph-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\langgraph-main",
+      "assigned_agent_ids": ["A10", "ORC"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "lumibot",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\lumibot",
+      "assigned_agent_ids": ["E01"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "ml4t-data",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\ml4t-data",
+      "assigned_agent_ids": ["D02"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "nautilus_trader-develop",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\nautilus_trader-develop",
+      "assigned_agent_ids": ["E01"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "opentradex-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\opentradex-main",
+      "assigned_agent_ids": ["E01"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "optuna-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\optuna-master",
+      "assigned_agent_ids": ["S02"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "pandas-ta",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\pandas-ta",
+      "assigned_agent_ids": ["S07"],
+      "status": "ASSIGNED",
+      "target_list": true,
+      "clone_status": "FAILED_NETWORK_TIMEOUT",
+      "clone_error": "git clone timed out repeatedly; directory empty"
+    },
+    {
+      "name": "pysystemtrade-develop",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\pysystemtrade-develop",
+      "assigned_agent_ids": ["S04"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "qlib-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\qlib-main",
+      "assigned_agent_ids": ["A09"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "quantportfolio",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\quantportfolio",
+      "assigned_agent_ids": ["A14"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "quantstats-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\quantstats-main",
+      "assigned_agent_ids": ["A19", "L02", "R01", "R03", "R06"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "skfolio-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\skfolio-main",
+      "assigned_agent_ids": ["A14"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "stocd",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\stocd",
+      "assigned_agent_ids": ["R06"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "stocksight",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\stocksight",
+      "assigned_agent_ids": ["A02"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "ta-lib-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\ta-lib-main",
+      "assigned_agent_ids": ["A06", "S06", "S07"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "vectorbt-master",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\vectorbt-master",
+      "assigned_agent_ids": ["A11"],
+      "status": "ASSIGNED",
+      "target_list": true
+    },
+    {
+      "name": "yfinance-main",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\yfinance-main",
+      "assigned_agent_ids": ["D01"],
+      "status": "ASSIGNED",
+      "target_list": false
+    },
+    {
+      "name": "redis-workq",
+      "path": "C:/Users/Peter/OneDrive - Puyallup School District/Trading repos\\redis-workq",
+      "assigned_agent_ids": ["SYS-04"],
+      "status": "ASSIGNED",
+      "target_list": true
+    }
+  ]
+}

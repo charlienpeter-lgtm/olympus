@@ -1,0 +1,14 @@
+{
+  "id": "ORC",
+  "role": "Orchestrator",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/langchain-ai/langgraph",
+  "additional_repos": [],
+  "source_paths": [
+    "~/trading-repos/langgraph-main"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

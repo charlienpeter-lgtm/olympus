@@ -1,0 +1,18 @@
+{
+  "id": "R-B06",
+  "role": "Feedback Loop",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/celery/kombu",
+  "additional_repos": [],
+  "subscribes_to": [
+    "feedback.execution"
+  ],
+  "publishes_to": [
+    "feedback.processed"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "R-B03",
+  "role": "Local Cloud Bridge",
+  "bot_type": "RELAY",
+  "status": "UNVERIFIED",
+  "trading_mode": "SIMULATED",
+  "name": null,
+  "primary_repo": "https://github.com/bloomberg/blazingmq",
+  "additional_repos": [],
+  "subscribes_to": [
+    "consensus.decision"
+  ],
+  "publishes_to": [
+    "cloud.bridge"
+  ],
+  "created": "2026-11-12",
+  "last_updated": "2026-11-12"
+}

@@ -1,0 +1,177 @@
+[2026-11-12T16:43:16.666272Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:16.677570Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:16.684543Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:17.105477Z] ORC: gap_detector: scanning for roles without ACTIVE agents
+[2026-11-12T16:43:17.105803Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:17.106256Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:17.106668Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:17.107628Z] ORC:   Found 61 gap roles out of 61 total roles
+[2026-11-12T16:43:17.109765Z] ORC:     GAP: A01 - Market Intelligence
+[2026-11-12T16:43:17.109991Z] ORC:     GAP: A02 - News & Events
+[2026-11-12T16:43:17.110210Z] ORC:     GAP: A03 - Macro Analysis
+[2026-11-12T16:43:17.110423Z] ORC:     GAP: A04 - Sentiment & Positioning
+[2026-11-12T16:43:17.110774Z] ORC:     GAP: A05 - Quantitative Analysis
+[2026-11-12T16:43:17.111186Z] ORC:     GAP: A06 - Technical Analysis
+[2026-11-12T16:43:17.111540Z] ORC:     GAP: A07 - Order Flow
+[2026-11-12T16:43:17.111878Z] ORC:     GAP: A08 - Correlation & Relative Value
+[2026-11-12T16:43:17.112092Z] ORC:     GAP: A09 - Strategy Architecture
+[2026-11-12T16:43:17.112296Z] ORC:     GAP: A10 - Strategy Engineering
+[2026-11-12T16:43:17.112568Z] ORC:     GAP: A11 - Backtesting
+[2026-11-12T16:43:17.112786Z] ORC:     GAP: A12 - Monte Carlo Simulation
+[2026-11-12T16:43:17.113003Z] ORC:     GAP: A13 - Risk Control & Veto
+[2026-11-12T16:43:17.113224Z] ORC:     GAP: A14 - Portfolio Management
+[2026-11-12T16:43:17.113431Z] ORC:     GAP: A15 - Position Sizing
+[2026-11-12T16:43:17.113646Z] ORC:     GAP: A16 - Independent Trade Review
+[2026-11-12T16:43:17.113884Z] ORC:     GAP: A17 - Execution Analysis & Order Prep
+[2026-11-12T16:43:17.114095Z] ORC:     GAP: A18 - Trade Surveillance
+[2026-11-12T16:43:17.114304Z] ORC:     GAP: A19 - Performance Analytics
+[2026-11-12T16:43:17.114508Z] ORC:     GAP: A20 - Continuous Improvement
+[2026-11-12T16:43:17.114752Z] ORC:     GAP: D01 - Live Market Data Aggregator
+[2026-11-12T16:43:17.114971Z] ORC:     GAP: D02 - Historical Data Manager
+[2026-11-12T16:43:17.115198Z] ORC:     GAP: D03 - Alternative Data Collector
+[2026-11-12T16:43:17.115405Z] ORC:     GAP: D04 - Data Quality & Validation
+[2026-11-12T16:43:17.115609Z] ORC:     GAP: D05 - Economic Calendar Monitor
+[2026-11-12T16:43:17.115814Z] ORC:     GAP: D06 - Broker Feed Normalizer
+[2026-11-12T16:43:17.116025Z] ORC:     GAP: E01 - Order Router
+[2026-11-12T16:43:17.116250Z] ORC:     GAP: E02 - Latency Monitor
+[2026-11-12T16:43:17.116473Z] ORC:     GAP: E03 - Partial Fill Handler
+[2026-11-12T16:43:17.116679Z] ORC:     GAP: E04 - Bracket & Stop Manager
+[2026-11-12T16:43:17.116884Z] ORC:     GAP: E05 - Trade Journal Writer
+[2026-11-12T16:43:17.117112Z] ORC:     GAP: E06 - Reconciliation Agent
+[2026-11-12T16:43:17.117314Z] ORC:     GAP: J01 - Chief Juror
+[2026-11-12T16:43:17.117516Z] ORC:     GAP: J02 - Evidence & Source Reliability
+[2026-11-12T16:43:17.117717Z] ORC:     GAP: J03 - Market Conditions
+[2026-11-12T16:43:17.117923Z] ORC:     GAP: J04 - Strategy Stability
+[2026-11-12T16:43:17.118131Z] ORC:     GAP: J05 - Opportunity Quality
+[2026-11-12T16:43:17.118332Z] ORC:     GAP: J06 - Historical & Statistical
+[2026-11-12T16:43:17.118531Z] ORC:     GAP: J07 - Rules, Compliance & Authorization
+[2026-11-12T16:43:17.118734Z] ORC:     GAP: K01 - Master Execution Operator
+[2026-11-12T16:43:17.118938Z] ORC:     GAP: L01 - Paper Harvester
+[2026-11-12T16:43:17.119142Z] ORC:     GAP: L02 - Backtest Reviewer
+[2026-11-12T16:43:17.119369Z] ORC:     GAP: L03 - Edge Decay Detector
+[2026-11-12T16:43:17.119574Z] ORC:     GAP: L04 - Market Regime Historian
+[2026-11-12T16:43:17.119773Z] ORC:     GAP: L05 - Community Signal Scanner
+[2026-11-12T16:43:17.119975Z] ORC:     GAP: L06 - Obsidian Knowledge Curator
+[2026-11-12T16:43:17.120177Z] ORC:     GAP: OBS - Obsidian Vault Manager
+[2026-11-12T16:43:17.120395Z] ORC:     GAP: ORC - Orchestrator
+[2026-11-12T16:43:17.120764Z] ORC:     GAP: R01 - Drawdown Monitor
+[2026-11-12T16:43:17.121014Z] ORC:     GAP: R02 - Prop Firm Rule Enforcer
+[2026-11-12T16:43:17.121234Z] ORC:     GAP: R03 - Correlation Risk Scanner
+[2026-11-12T16:43:17.121443Z] ORC:     GAP: R04 - Exposure Calculator
+[2026-11-12T16:43:17.121648Z] ORC:     GAP: R05 - Daily Loss Limit Guardian
+[2026-11-12T16:43:17.121867Z] ORC:     GAP: R06 - Slippage & Cost Analyst
+[2026-11-12T16:43:17.122072Z] ORC:     GAP: S01 - Strategy Ideation
+[2026-11-12T16:43:17.122277Z] ORC:     GAP: S02 - Parameter Optimizer
+[2026-11-12T16:43:17.122532Z] ORC:     GAP: S03 - Walk-Forward Tester
+[2026-11-12T16:43:17.122747Z] ORC:     GAP: S04 - Strategy Combiner
+[2026-11-12T16:43:17.122956Z] ORC:     GAP: S05 - Regime Detector
+[2026-11-12T16:43:17.123179Z] ORC:     GAP: S06 - Entry & Exit Refiner
+[2026-11-12T16:43:17.123411Z] ORC:     GAP: S07 - Indicator Factory
+[2026-11-12T16:43:19.570489Z] ORC: route_task: routing task to agent K01
+[2026-11-12T16:43:19.570863Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:19.571390Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:19.571830Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:19.572055Z] ORC:   WARNING: Agent K01 is UNVERIFIED, not ACTIVE
+[2026-11-12T16:43:19.572266Z] ORC:   Task routed to K01 (Master Execution Operator)
+[2026-11-12T16:43:19.572478Z] ORC:   Health check: {}
+[2026-11-12T16:43:23.086556Z] ORC: repo_scanner: re-scanning trading repos folder
+[2026-11-12T16:43:23.088440Z] ORC:   Found 43 repos in trading folder
+[2026-11-12T16:43:23.088861Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:23.089518Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:23.089887Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:23.090109Z] ORC:   No new repos detected
+[2026-11-12T16:43:23.090317Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:23.090679Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:23.091039Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:23.091938Z] ORC:   repo_map.json updated with 43 repos
+[2026-11-12T16:43:23.092145Z] ORC: gap_detector: scanning for roles without ACTIVE agents
+[2026-11-12T16:43:23.092355Z] ORC: registry_loader: loading bot_registry.json and repo_map.json
+[2026-11-12T16:43:23.092709Z] ORC:   Loaded 61 agents from bot_registry.json
+[2026-11-12T16:43:23.099534Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T16:43:23.100647Z] ORC:   Found 61 gap roles out of 61 total roles
+[2026-11-12T16:43:23.100864Z] ORC:     GAP: A01 - Market Intelligence
+[2026-11-12T16:43:23.101092Z] ORC:     GAP: A02 - News & Events
+[2026-11-12T16:43:23.101315Z] ORC:     GAP: A03 - Macro Analysis
+[2026-11-12T16:43:23.101526Z] ORC:     GAP: A04 - Sentiment & Positioning
+[2026-11-12T16:43:23.101734Z] ORC:     GAP: A05 - Quantitative Analysis
+[2026-11-12T16:43:23.101935Z] ORC:     GAP: A06 - Technical Analysis
+[2026-11-12T16:43:23.102215Z] ORC:     GAP: A07 - Order Flow
+[2026-11-12T16:43:23.102436Z] ORC:     GAP: A08 - Correlation & Relative Value
+[2026-11-12T16:43:23.102654Z] ORC:     GAP: A09 - Strategy Architecture
+[2026-11-12T16:43:23.102875Z] ORC:     GAP: A10 - Strategy Engineering
+[2026-11-12T16:43:23.103072Z] ORC:     GAP: A11 - Backtesting
+[2026-11-12T16:43:23.103294Z] ORC:     GAP: A12 - Monte Carlo Simulation
+[2026-11-12T16:43:23.103527Z] ORC:     GAP: A13 - Risk Control & Veto
+[2026-11-12T16:43:23.103726Z] ORC:     GAP: A14 - Portfolio Management
+[2026-11-12T16:43:23.103944Z] ORC:     GAP: A15 - Position Sizing
+[2026-11-12T16:43:23.104149Z] ORC:     GAP: A16 - Independent Trade Review
+[2026-11-12T16:43:23.104347Z] ORC:     GAP: A17 - Execution Analysis & Order Prep
+[2026-11-12T16:43:23.104548Z] ORC:     GAP: A18 - Trade Surveillance
+[2026-11-12T16:43:23.104747Z] ORC:     GAP: A19 - Performance Analytics
+[2026-11-12T16:43:23.104943Z] ORC:     GAP: A20 - Continuous Improvement
+[2026-11-12T16:43:23.105211Z] ORC:     GAP: D01 - Live Market Data Aggregator
+[2026-11-12T16:43:23.105534Z] ORC:     GAP: D02 - Historical Data Manager
+[2026-11-12T16:43:23.105809Z] ORC:     GAP: D03 - Alternative Data Collector
+[2026-11-12T16:43:23.106111Z] ORC:     GAP: D04 - Data Quality & Validation
+[2026-11-12T16:43:23.106399Z] ORC:     GAP: D05 - Economic Calendar Monitor
+[2026-11-12T16:43:23.106685Z] ORC:     GAP: D06 - Broker Feed Normalizer
+[2026-11-12T16:43:23.106975Z] ORC:     GAP: E01 - Order Router
+[2026-11-12T16:43:23.107285Z] ORC:     GAP: E02 - Latency Monitor
+[2026-11-12T16:43:23.107608Z] ORC:     GAP: E03 - Partial Fill Handler
+[2026-11-12T16:43:23.107881Z] ORC:     GAP: E04 - Bracket & Stop Manager
+[2026-11-12T16:43:23.108141Z] ORC:     GAP: E05 - Trade Journal Writer
+[2026-11-12T16:43:23.108397Z] ORC:     GAP: E06 - Reconciliation Agent
+[2026-11-12T16:43:23.108652Z] ORC:     GAP: J01 - Chief Juror
+[2026-11-12T16:43:23.108874Z] ORC:     GAP: J02 - Evidence & Source Reliability
+[2026-11-12T16:43:23.109084Z] ORC:     GAP: J03 - Market Conditions
+[2026-11-12T16:43:23.109329Z] ORC:     GAP: J04 - Strategy Stability
+[2026-11-12T16:43:23.109562Z] ORC:     GAP: J05 - Opportunity Quality
+[2026-11-12T16:43:23.109770Z] ORC:     GAP: J06 - Historical & Statistical
+[2026-11-12T16:43:23.109992Z] ORC:     GAP: J07 - Rules, Compliance & Authorization
+[2026-11-12T16:43:23.110217Z] ORC:     GAP: K01 - Master Execution Operator
+[2026-11-12T16:43:23.110425Z] ORC:     GAP: L01 - Paper Harvester
+[2026-11-12T16:43:23.110630Z] ORC:     GAP: L02 - Backtest Reviewer
+[2026-11-12T16:43:23.110920Z] ORC:     GAP: L03 - Edge Decay Detector
+[2026-11-12T16:43:23.111124Z] ORC:     GAP: L04 - Market Regime Historian
+[2026-11-12T16:43:23.111375Z] ORC:     GAP: L05 - Community Signal Scanner
+[2026-11-12T16:43:23.111581Z] ORC:     GAP: L06 - Obsidian Knowledge Curator
+[2026-11-12T16:43:23.111783Z] ORC:     GAP: OBS - Obsidian Vault Manager
+[2026-11-12T16:43:23.111995Z] ORC:     GAP: ORC - Orchestrator
+[2026-11-12T16:43:23.112198Z] ORC:     GAP: R01 - Drawdown Monitor
+[2026-11-12T16:43:23.112424Z] ORC:     GAP: R02 - Prop Firm Rule Enforcer
+[2026-11-12T16:43:23.112658Z] ORC:     GAP: R03 - Correlation Risk Scanner
+[2026-11-12T16:43:23.112861Z] ORC:     GAP: R04 - Exposure Calculator
+[2026-11-12T16:43:23.113071Z] ORC:     GAP: R05 - Daily Loss Limit Guardian
+[2026-11-12T16:43:23.113273Z] ORC:     GAP: R06 - Slippage & Cost Analyst
+[2026-11-12T16:43:23.113488Z] ORC:     GAP: S01 - Strategy Ideation
+[2026-11-12T16:43:23.113693Z] ORC:     GAP: S02 - Parameter Optimizer
+[2026-11-12T16:43:23.113906Z] ORC:     GAP: S03 - Walk-Forward Tester
+[2026-11-12T16:43:23.114105Z] ORC:     GAP: S04 - Strategy Combiner
+[2026-11-12T16:43:23.114305Z] ORC:     GAP: S05 - Regime Detector
+[2026-11-12T16:43:23.114507Z] ORC:     GAP: S06 - Entry & Exit Refiner
+[2026-11-12T16:43:23.114712Z] ORC:     GAP: S07 - Indicator Factory
+[2026-11-12T22:38:42.756809Z] ORC: registry_loader: loading bot_registry.json, repo_map.json, channel_map.json
+[2026-11-12T22:38:42.768458Z] ORC:   Loaded 87 agents from bot_registry.json
+[2026-11-12T22:38:42.774960Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T22:38:42.775399Z] ORC:   Loaded channel map with 41 channels
+[2026-11-12T22:38:43.153827Z] ORC: registry_loader: loading bot_registry.json, repo_map.json, channel_map.json
+[2026-11-12T22:38:43.154366Z] ORC:   Loaded 87 agents from bot_registry.json
+[2026-11-12T22:38:43.154734Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T22:38:43.155106Z] ORC:   Loaded channel map with 41 channels
+[2026-11-12T22:38:43.155310Z] ORC: check_sys01_health: verifying SYS-01 health monitor status
+[2026-11-12T22:38:43.155533Z] ORC:   WARNING: SYS-01 is UNVERIFIED, not ACTIVE
+[2026-11-12T22:38:43.155762Z] ORC:   ERROR: SYS-01 health check failed — blocking all routing
+[2026-11-12T22:38:43.558020Z] ORC: registry_loader: loading bot_registry.json, repo_map.json, channel_map.json
+[2026-11-12T22:38:43.558638Z] ORC:   Loaded 87 agents from bot_registry.json
+[2026-11-12T22:38:43.559184Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T22:38:43.559590Z] ORC:   Loaded channel map with 41 channels
+[2026-11-12T22:38:43.559814Z] ORC: check_sys01_health: verifying SYS-01 health monitor status
+[2026-11-12T22:38:43.560036Z] ORC:   WARNING: SYS-01 is UNVERIFIED, not ACTIVE
+[2026-11-12T22:38:43.560243Z] ORC:   ERROR: SYS-01 health check failed — blocking all routing
+[2026-11-12T22:38:48.319094Z] ORC: registry_loader: loading bot_registry.json, repo_map.json, channel_map.json
+[2026-11-12T22:38:48.319730Z] ORC:   Loaded 87 agents from bot_registry.json
+[2026-11-12T22:38:48.320113Z] ORC:   Loaded 43 repos from repo_map.json
+[2026-11-12T22:38:48.320538Z] ORC:   Loaded channel map with 41 channels
+[2026-11-12T22:38:48.320809Z] ORC: check_sys01_health: verifying SYS-01 health monitor status
+[2026-11-12T22:38:48.321143Z] ORC:   WARNING: SYS-01 is UNVERIFIED, not ACTIVE
+[2026-11-12T22:38:48.321374Z] ORC:   ERROR: SYS-01 health check failed — blocking all routing
