@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "b1d2e1041c102266",
+    "type": "split",
+    "children": [
+      {
+        "id": "70ce054c144dcded",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b1459abb7e05afe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9d3085228bf2af92",
+    "type": "split",
+    "children": [
+      {
+        "id": "95d30889a0f22cb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68627f078b0702d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5b7a53004ddbac5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83ad6e968c86db58",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4e5c8b5cf6e0af0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bca3a2034c85e1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a29700fdc0e5a80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6b03e2cc3ffb0f85",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9b361a669e198a1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5431dc52c3d89760",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4093fad96a8cd420",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "68627f078b0702d0",
+  "lastOpenFiles": [
+    "Pro-OLYMPUS/second-brain/OBS-obsidian-vault-manager/README.md",
+    "Pro-OLYMPUS/second-brain/OBS-obsidian-vault-manager/config.json",
+    "Pro-OLYMPUS/second-brain/OBS-obsidian-vault-manager/agent.py",
+    "Pro-OLYMPUS/second-brain/OBS-obsidian-vault-manager",
+    "Pro-OLYMPUS/second-brain",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-S-strategy-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-S-strategy-relay/config.json",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-S-strategy-relay/agent.py",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-S-strategy-relay",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-R-risk-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-R-risk-relay/config.json",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-R-risk-relay/agent.py",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-R-risk-relay",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-L-research-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-J-jurors-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-E-execution-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-D-data-feeds-relay/README.md",
+    "Pro-OLYMPUS/relay/zone-relays/ZR-A-trading-desks-relay/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-06-session-manager/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-05-clock-sync/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-04-dead-letter-handler/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-03-priority-sorter/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-02-queue-manager/README.md",
+    "Pro-OLYMPUS/relay/system-level/SYS-01-health-monitor/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B06-feedback-loop/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B05-authorization-gateway/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B04-broadcast-bot/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B03-local-cloud-bridge/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B02-consensus-aggregator/README.md",
+    "Pro-OLYMPUS/relay/system-level/R-B01-signal-router/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-07-research-broadcaster/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-06-execution-to-feedback/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-05-jurors-to-auth/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-04-desks-to-jurors/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-03-risk-to-execution/README.md",
+    "Pro-OLYMPUS/relay/cross-zone-relays/XR-02-strategy-to-risk/README.md"
+  ]
+}
